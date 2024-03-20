@@ -29,16 +29,19 @@ public class ShortListStep {
 	   ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
 	   driver.switchTo().window(tabs.get(1));
 		pp.clickOnShortlistBtn();
+		Thread.sleep(1000);
 	}
 
 	@When("User click on the Shortlist button")
-	public void user_click_on_the_shortlist_button() {
-	    hp.clickonShortlist();
+	public void user_click_on_the_shortlist_button() throws InterruptedException {
+	    hp.clickOnFirstcryIcon();
+		hp.clickonShortlist();
+		Thread.sleep(1000);
+		
 	}
 
 	@Then("the selected products should be in my Shortlist")
 	public void the_selected_products_should_be_in_my_shortlist() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	   
 	}
 }

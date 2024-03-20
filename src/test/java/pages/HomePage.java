@@ -41,8 +41,11 @@ public class HomePage {
 	@FindBy(xpath = "//div[@id='searchlist']/descendant::li[1]")
 	private WebElement firstItemInList;
 
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//li[@class='navhide'][3]")
 	WebElement shortlistBtn;
+	
+	@FindBy(xpath = "//div[@class='fc_logo lft']/child::a")
+	WebElement firstCryIcon;
 	
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -76,5 +79,8 @@ public class HomePage {
 	
 	public void clickonShortlist() {
 		shortlistBtn.click();
+	}
+	public void clickOnFirstcryIcon() {
+		firstCryIcon.click();
 	}
 }
