@@ -1,6 +1,7 @@
 package steps;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 
@@ -23,6 +24,20 @@ public class ShortListStep {
 	ShortListPage slp=new ShortListPage(driver);
 	
 	@When("User shortlist few products")
+	public void user_shortlist_few_products(io.cucumber.datatable.DataTable dataTable) throws InterruptedException {
+		List<List<String>> userLists = dataTable.asLists(String.class);
+		for (List<String> userList : userLists) {
+			 hp.EnterProduct(userList.get(0));
+			  // hp.clickOnSearch();
+			   Thread.sleep(1000);
+			   sp.clickonFirstProduct();
+			   ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
+			   driver.switchTo().window(tabs.get(tabs.size()-1));
+				pp.clickOnShortlistBtn();
+				Thread.sleep(1000);
+		}
+	}
+	@When("User shlist few products")
 	public void user_shortlist_few_products() throws InterruptedException {
 	   hp.EnterProduct("jacket");
 	  // hp.clickOnSearch();
@@ -41,6 +56,11 @@ public class ShortListStep {
 		Thread.sleep(1000);
 		
 	}
+	@Then("user can see {string} in the shortlist")
+	public void user_can_see_in_the_shortlist(String string) {
+		String expectedresult=string;
+	}
+
 	@When("User add a product to the cart from the shortlist")
 	public void user_add_a_product_to_the_cart_from_the_shortlist() {
 	    slp.clickOnAddtoCartFromSL();
@@ -51,9 +71,10 @@ public class ShortListStep {
 	    slp.clickOnDeleteFromSL();
 	}
 
-	@Then("the product should be removed from the shortlist")
-	public void the_product_should_be_removed_from_the_shortlist() {
-	    
+	
+	@Then("the {string} should be removed from the shortlist")
+	public void the_should_be_removed_from_the_shortlist(String string) {
+		String expectedresult=string;
 	}
 
 }

@@ -22,13 +22,6 @@ public class AddToCartStepDefination {
 	ProductsPage pp=new ProductsPage(driver);
 	
 	
-
-	@Then("User should be redirected to the homepage")
-	public void user_should_be_redirected_to_the_homepage() {
-	   driver.get("https://www.firstcry.com/");
-	}
-
-	
 	@When("User search for a {string}")
 	public void user_search_for_a(String string) throws InterruptedException {
 		Thread.sleep(1000);
@@ -48,5 +41,6 @@ public class AddToCartStepDefination {
 	@Then("{string} should be added to my cart")
 	public void should_be_added_to_my_cart(String string) {
 		  hp.clickonCart();
+		  String expectedresult=string;
 	}
 }

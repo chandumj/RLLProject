@@ -91,4 +91,8 @@ public class HomePage {
 	public void clickOnFirstcryIcon() {
 		firstCryIcon.click();
 	}
+	
+	public boolean elementExists(WebElement element) {
+		return element.isEnabled();
+	}
 }

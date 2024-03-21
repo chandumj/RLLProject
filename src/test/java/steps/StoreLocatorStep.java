@@ -35,6 +35,11 @@ public class StoreLocatorStep {
 		driver.switchTo().window(tabs.get(1));
 	}
 
+	@Then("User should be on {string} page")
+	public void user_should_be_on_page(String string) {
+		String expectedresult=string;
+	}
+	
 	@When("User select the store Type,state and city")
 	public void user_select_the_store_type_state_and_city() throws InterruptedException {
 	    sp.clickOnSearchStore();
@@ -52,8 +57,8 @@ public class StoreLocatorStep {
 	    sp.clickOnSearchStore();
 	}
 
-	@Then("User must be able to view the store result")
-	public void user_must_be_able_to_view_the_store_result() {
-	   
+	@Then("User must be able to view the {string}")
+	public void user_must_be_able_to_view_the(String string) {
+		String expectedresult=string;
 	}
 }

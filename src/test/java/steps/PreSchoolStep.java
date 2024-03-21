@@ -34,25 +34,29 @@ public class PreSchoolStep {
 		Thread.sleep(1000);
 		ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(tabs.size()-1));
-		
-		
 	}
 
-
+	@Then("user should be on {string} tab")
+	public void user_should_be_on_tab(String string) {
+		String expectedresult=string;
+	}
+	
+	@When("user search for {string}")
+	public void user_search_for(String string) {
+		ps.enterCity(string);
+	}
+	
+	
 	@When("click on findmy preschool")
 	public void click_on_findmy_preschool() throws InterruptedException {
 		Thread.sleep(2000);
 		ps.clickOnCitySearch();
 		
 	}
-
-	@When("user search for {string}")
-	public void user_search_for(String string) {
-		ps.enterCity(string);
-	}
+	
 
 	@Then("User should see preschools in {string}")
 	public void user_should_see_preschools_in(String string) {
-	   
+		String expectedresult=string;
 	}
 }

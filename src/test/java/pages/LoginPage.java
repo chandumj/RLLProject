@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage {
 	public WebDriver driver;
 	
+	
 	@FindBy(xpath = "//li[@class='logreg']/child::span[1]")
 	private WebElement loginBtn;
 	
@@ -39,4 +40,6 @@ public class LoginPage {
 	public void clickOnSubmit() {
 		submitBtn.click();
 	}
+	
+	
 }

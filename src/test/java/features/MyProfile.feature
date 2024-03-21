@@ -8,11 +8,12 @@ Feature: Edit User Profile
   Scenario Outline: Edit user profile
     When User click on My Account
     And User select My Profile
+    Then User should be on profile page
     And User perform an Edit operation on My Address Book
     And User add/change delivery address of "<user>" 
     And click on Save
-    Then User can view the edited address
+    Then User can view the "<edited address>"
 
  Examples:
-     | user  |
-     | user1 |
+     | user  |edited address|
+     | user1 |              |

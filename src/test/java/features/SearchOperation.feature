@@ -6,13 +6,12 @@ Feature: Search Functionality
   # When User log into the application with credentials
   
   Scenario Outline: Login, Search
-    Then User should be redirected to the homepage
-    When User search for any specific product
-    And select  "<searchproduct>" from the search results
+    When User search for "<searchproduct>"
+    And select product from the search results
     And User switches focus to the new tab
-    Then title should contain "<searchproduct>"
+    Then title should be "<title>"
 
     Examples: 
-      | searchproduct |
-      | watches       |
-      | Jackets       |
+      | searchproduct |title|
+      | watches       |     |
+      | Jackets       |     |

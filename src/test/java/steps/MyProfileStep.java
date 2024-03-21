@@ -1,6 +1,7 @@
 package steps;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -22,6 +23,13 @@ public class MyProfileStep {
 	public void user_select_my_profile() throws InterruptedException {
 	   hp.clickonMyProfile();
 	   Thread.sleep(1000);
+	}
+	
+	@Then("User should be on profile page")
+	public void user_should_be_on_profile_page() {
+	    String expectedResult="My Profile | FirstCry.com";
+	    String actualResult=driver.getTitle();
+	    Assert.assertEquals(actualResult, expectedResult);
 	}
 
 	@When("User perform an Edit operation on My Address Book")
@@ -53,9 +61,9 @@ public class MyProfileStep {
 	   prp.clickOnSave();
 	}
 
-	@Then("User can view the edited address")
-	public void user_can_view_the_edited_address() {
-	   
+	@Then("User can view the {string}")
+	public void user_can_view_the(String string) {
+		String expectedresult=string;
 	}
 
 }

@@ -1,6 +1,8 @@
 package steps;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.asserts.Assertion;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,6 +18,13 @@ public class LoginStepDefination {
 	public void user_click_on_the_login_button() {
 	   lp.clickOnLogin();
 	}
+	@Then("user should be on login Page")
+	public void user_should_be_on_login_page() {
+	  String actualResult=driver.getTitle();
+	  String expectedResult="FirstCry Account Login";
+	  Assert.assertEquals(actualResult, expectedResult);
+	}
+
 	@When("User enter {string}")
 	public void user_enter(String string) {
 		 lp.enterEmail(string);
@@ -33,9 +42,12 @@ public class LoginStepDefination {
 		lp.clickOnSubmit();
 	}
 
-	@Then("user should be logged in successfully")
-	public void user_should_be_logged_in_successfully() {
-	   
+	
+	@Then("user should be on Home Page")
+	public void user_should_be_on_home_page() {
+		 String actualResult=driver.getTitle();
+		  String expectedResult="Baby Products Online India: Newborn Baby Products & Kids Online Shopping at FirstCry.com";
+		  Assert.assertEquals(actualResult, expectedResult);
 	}
 
 }

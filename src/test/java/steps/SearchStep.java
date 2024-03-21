@@ -19,18 +19,16 @@ public class SearchStep {
 	HomePage hp=new HomePage(driver);
 	SearchPage sp=new SearchPage(driver);
 	
-	@When("User search for any specific product")
-	public void user_search_for_any_specific_product() {
-	   
+	@When("User search for {string}")
+	public void user_search_for(String string) throws InterruptedException {
+		 hp.EnterProduct(string);
+	}
+
+	@When("select product from the search results")
+	public void select_product_from_the_search_results() {
+		sp.clickonFirstProduct();
 	}
 	
-	@When("select  {string} from the search results")
-	public void select_from_the_search_results(String string) throws InterruptedException {
-	   hp.EnterProduct(string);
-	   System.out.println(driver);
-	   sp.clickonFirstProduct();
-	   
-	}
 
 	@When("User switches focus to the new tab")
 	public void user_switches_focus_to_the_new_tab() {
@@ -38,8 +36,8 @@ public class SearchStep {
 		driver.switchTo().window(tabs.get(tabs.size()-1));
 	}
 
-	@Then("title should contain {string}")
-	public void title_should_contain(String string) {
-	   
+	@Then("title should be {string}")
+	public void title_should_be(String string) {
+		String expectedresult=string;
 	}
 }

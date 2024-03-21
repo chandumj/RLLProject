@@ -6,12 +6,14 @@ Feature: Manage Cart
 
   Scenario Outline: Manage Cart Functions
     When User add a few products to the cart
+    |Toys   |
+    |Jackets|
     And  User click on cart
-    And User enter "<pincode>" and apply
+    Then user can see "<allproducts>" in the cart
     And User move a product to the shortlist
     And User delete the product from the cart
-    Then the product should be removed from the cart
+    Then the "<product>" should be removed from the cart
 
 Examples:
-      | pincode   |
-      | 500074    |
+      | product   |allproducts|
+      |           |           |
