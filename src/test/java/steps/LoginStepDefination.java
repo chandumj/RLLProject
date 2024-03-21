@@ -16,10 +16,9 @@ public class LoginStepDefination {
 	public void user_click_on_the_login_button() {
 	   lp.clickOnLogin();
 	}
-
-	@When("user enter valid emailid")
-	public void user_enter_valid_emailid() {
-	   lp.enterEmail("chandumj787013@gmail.com");
+	@When("User enter {string}")
+	public void user_enter(String string) {
+		 lp.enterEmail(string);
 	}
 
 	@When("user click on the continue button")

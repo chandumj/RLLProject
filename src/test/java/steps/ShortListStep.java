@@ -10,6 +10,7 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.ProductsPage;
 import pages.SearchPage;
+import pages.ShortListPage;
 
 public class ShortListStep {
 	
@@ -19,6 +20,7 @@ public class ShortListStep {
 	HomePage hp=new HomePage(driver);
 	SearchPage sp=new SearchPage(driver);
 	ProductsPage pp=new ProductsPage(driver);
+	ShortListPage slp=new ShortListPage(driver);
 	
 	@When("User shortlist few products")
 	public void user_shortlist_few_products() throws InterruptedException {
@@ -39,9 +41,19 @@ public class ShortListStep {
 		Thread.sleep(1000);
 		
 	}
-
-	@Then("the selected products should be in my Shortlist")
-	public void the_selected_products_should_be_in_my_shortlist() {
-	   
+	@When("User add a product to the cart from the shortlist")
+	public void user_add_a_product_to_the_cart_from_the_shortlist() {
+	    slp.clickOnAddtoCartFromSL();
 	}
+
+	@When("User delete a product from the shortlist")
+	public void user_delete_a_product_from_the_shortlist() {
+	    slp.clickOnDeleteFromSL();
+	}
+
+	@Then("the product should be removed from the shortlist")
+	public void the_product_should_be_removed_from_the_shortlist() {
+	    
+	}
+
 }

@@ -35,7 +35,7 @@ public class SearchStep {
 	@When("User switches focus to the new tab")
 	public void user_switches_focus_to_the_new_tab() {
 		ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
-		driver.switchTo().window(tabs.get(1));
+		driver.switchTo().window(tabs.get(tabs.size()-1));
 	}
 
 	@Then("title should contain {string}")

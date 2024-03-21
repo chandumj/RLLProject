@@ -29,7 +29,7 @@ public class HomePage {
 	@FindBy(xpath="//span[text()='Find Stores']")
 	WebElement findstores;
 	
-	@FindBy(xpath="/html/body/div[1]/div[5]/div/div[3]/ul/li[2]/ul/li[2]/a/span")
+	@FindBy(xpath="//span[normalize-space()='Find Preschools']")
 	WebElement findpreschool;
 	
 	@FindBy(xpath="//span[@id='cart_TotalCount']")
@@ -71,7 +71,15 @@ public class HomePage {
 		action.moveToElement(myProfile).click().build().perform();
 	}
 	public void hovertoStoresandPreSchool() {
-		action.moveToElement(storespreschool);
+		action.moveToElement(storespreschool).perform();
+	}
+	
+	public void clickOnPreSchools() {
+		action.moveToElement(findpreschool).click().build().perform();
+	}
+	
+	public void clickOnStores() {
+		action.moveToElement(findstores).click().build().perform();
 	}
 	public void clickonCart() {
 		cartBtn.click();
