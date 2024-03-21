@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelUtility {
 
-	String filePath= "F:\\Mphasis Practice Eclipse\\TricentisPracticeExercise\\src\\test\\resources\\TestData.xlsx";
+	String filePath= "F:\\Mphasis Practice Eclipse\\RLLProject\\src\\test\\resources\\TestData.xlsx";
 	Workbook book;
 	Sheet sheet;
 	

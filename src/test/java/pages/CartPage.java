@@ -15,10 +15,14 @@ public class CartPage {
 	@FindBy(xpath = "//div[@id='apply_pin']")
 	private WebElement applyPinCode;
 	
-	@FindBy(xpath = "//span[@class='M15_21removetext'][normalize-space()='Remove'] ")
-	private WebElement removeItem;
+	//span[@class='quantity-icon']
+	@FindBy(xpath = "//span[@class='quantity-icon']")
+	private WebElement quantityIcon;
 	
-	@FindBy(xpath = "//div[@id='shortlist_15934334']")
+	@FindBy(xpath = "(//div[@class='qty_popup-value'])[2]")
+	private WebElement changeQty;
+	
+	@FindBy(xpath = "(//span[@class='M15_21 removetext'])[2]")
 	private WebElement moveToShortlist;
 	
 	@FindBy(xpath = "//div[@id='shortlist_15934334']")
@@ -40,10 +44,13 @@ public class CartPage {
 		applyPinCode.click();
 	}
 	
-	public void clickOnRemoveItem() {
-		removeItem.click();
+	public void changeQuantity() {
+		changeQty.click();
 	}
 	public void moveToShortlist() {
 		moveToShortlist.click();
+	}
+	public void clickOnQuantyIcon() {
+		quantityIcon.click();
 	}
 }

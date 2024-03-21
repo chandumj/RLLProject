@@ -3,7 +3,7 @@ Feature: Search Functionality
 
   Background: 
     Given User navigate to the FirstCry URL
-  # When User log into the application with credentials
+   When User log into the application with credentials
   
   Scenario Outline: Login, Search
     When User search for "<searchproduct>"

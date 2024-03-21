@@ -3,6 +3,7 @@ package steps;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 
 import io.cucumber.java.en.Then;
@@ -62,13 +63,18 @@ public class ShortListStep {
 	}
 
 	@When("User add a product to the cart from the shortlist")
-	public void user_add_a_product_to_the_cart_from_the_shortlist() {
+	public void user_add_a_product_to_the_cart_from_the_shortlist() throws InterruptedException {
 	    slp.clickOnAddtoCartFromSL();
+	    slp.clickOnConfirmAddToCartFromSL();
+	    Thread.sleep(1000);
 	}
 
 	@When("User delete a product from the shortlist")
-	public void user_delete_a_product_from_the_shortlist() {
+	public void user_delete_a_product_from_the_shortlist() throws InterruptedException {
 	    slp.clickOnDeleteFromSL();
+	    Alert a = driver.switchTo().alert();
+	    a.accept();
+	    Thread.sleep(2000);
 	}
 
 	

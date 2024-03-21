@@ -54,13 +54,21 @@ public class MyProfilePage {
 		}
 	}
 	public void editAddress(String name,String building,String street,String pincode,String city,String state,String country,String mobile) {
+		this.name.clear();
 		this.name.sendKeys(name);
+		buildingName.clear();
 		buildingName.sendKeys(building);
+		streetAddress.clear();
 		streetAddress.sendKeys(street);
+		this.pincode.clear();
 		this.pincode.sendKeys(pincode);
+		this.city.clear();
 		this.city.sendKeys(city);
+		this.state.clear();
 		this.state.sendKeys(state);
+		this.country.clear();
 		this.country.sendKeys(country);
+		mobileNo.clear();
 		mobileNo.sendKeys(mobile);
 	}
 	

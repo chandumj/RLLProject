@@ -11,6 +11,5 @@ Feature: Login with Mobile Number
 
     Examples: 
       |      UserId                 |
-      |    15753635                 |
       |    chandumj787013@gmail.com |
       

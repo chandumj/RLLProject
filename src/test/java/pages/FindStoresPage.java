@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -11,52 +12,41 @@ public class FindStoresPage {
 
 	public WebDriver driver;
 	public Actions action;
-	
-	@FindBy(xpath = "//select[@id='storetype']")
+
+	@FindBy(xpath = "//select[@id=\"storetype\"]")
 	private WebElement selectStoreType;
-	
-	@FindBy(xpath = "//select[@name='state']")
+
+	@FindBy(xpath = "//select[@name=\"state\"]")
 	private WebElement selectState;
-	
-	@FindBy(xpath = "//select[@name='city']")
+
+	@FindBy(xpath = "//select[@name=\"city\"]")
 	private WebElement selectCity;
-	
+
 	@FindBy(xpath = "//input[@value='Search']")
 	private WebElement searchStoreBtn;
 
 	public FindStoresPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
-		action=new Actions(driver);
+		action = new Actions(driver);
 	}
-	
-	public void clickOnStoreType() {
-		action.moveToElement(selectStoreType).click().build().perform();
+
+	public void selectOneStore(String store) {
+		Select select = new Select(selectStoreType);
+		select.selectByValue(store);
 	}
-	
-	public void selectOneStore() {
-		Select select=new Select(selectStoreType);
-		select.selectByIndex(0);
+
+	public void selectOneState(String state) {
+		Select select = new Select(selectState);
+		select.selectByValue(state);
 	}
-	
-	public void clickOnSelectState() {
-		action.moveToElement(selectState).click().build().perform();
-	}
-	
-	public void selectOneState() {
-		Select select=new Select(selectState);
-		select.selectByIndex(0);
-	}
-	public void clickOnSelectCity() {
-		action.moveToElement(selectCity).click().build().perform();
-	}
-	
-	public void selectOneCity() {
-		Select select=new Select(selectCity);
-		select.selectByIndex(0);
+
+	public void selectOneCity(String city) {
+		Select select = new Select(selectCity);
+		select.selectByValue(city);
 	}
 
 	public void clickOnSearchStore() {
 		searchStoreBtn.click();
 	}
-	
+
 }

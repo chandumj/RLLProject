@@ -23,11 +23,14 @@ public class SharedSteps {
 	@Given("User navigate to the FirstCry URL")
 	public void user_navigate_to_the_first_cry_url() {
 	    driver.get("https://www.firstcry.com/");
+	    driver.manage().deleteAllCookies();
 	}
 
 	@When("User log into the application with credentials")
 	public void user_log_into_the_application_with_credentials() throws InterruptedException {
 	    LoginPage lp=new LoginPage(driver);
+	    
+	    Thread.sleep(5000);
 		lp.clickOnLogin();
 	   lp.enterEmail("chandumj787013@gmail.com");
 	   Thread.sleep(1000);

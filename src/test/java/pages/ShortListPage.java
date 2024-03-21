@@ -10,10 +10,13 @@ public class ShortListPage {
 	
 	public WebDriver driver;
 	
-	@FindBy(xpath = "//div[@class='addto-cart-button']")
+	@FindBy(xpath = "(//div[@class='bn_ctr nonehv lft wt'])[1]/child::div[1]")
 	private WebElement shortListtoAddtocart;
 	
-	@FindBy(xpath = "//div[@id='dltfromsrtlst_15934334']")
+	@FindBy(xpath = "(//div[@class='bn_ctr nonehv lft wt'])[1]/child::div[2]")
+	private WebElement confirmShortListtoAddtocart;
+	
+	@FindBy(xpath = "(//div[@class='prd_delete'])[1]/child::span")
 	private WebElement deleteFromShortlist;
 
 	public ShortListPage(WebDriver driver) {
@@ -28,7 +31,9 @@ public class ShortListPage {
 		deleteFromShortlist.click();
 	}
 
-
+	public void clickOnConfirmAddToCartFromSL() {
+		confirmShortListtoAddtocart.click();
+	}
 
 
 }

@@ -1,5 +1,8 @@
 package steps;
 
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -7,12 +10,14 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.HomePage;
 import pages.MyProfilePage;
+import utilities.ExcelUtility;
 
 public class MyProfileStep {
 	SharedSteps shared=new SharedSteps();
 	public WebDriver driver=shared.getDriver();
 	HomePage hp=new HomePage(driver);
 	MyProfilePage prp=new MyProfilePage(driver);
+	ExcelUtility xl=new ExcelUtility();
 	
 	@When("User click on My Account")
 	public void user_click_on_my_account() {
@@ -38,15 +43,16 @@ public class MyProfileStep {
 	}
 
 	@When("User add\\/change delivery address of {string}")
-	public void user_add_change_delivery_address_of(String string) throws InterruptedException {
-		String name=null;
-		String building=null;
-		String street=null;
-		String pincode=null;
-		String city=null;
-		String state=null;
-		String country=null;
-		String mobile=null;
+	public void user_add_change_delivery_address_of(String string) throws InterruptedException, EncryptedDocumentException, IOException {
+		Object[][] data=xl.getTestData("sheet1");
+		String name=(String) data[0][0];
+		String building=(String) data[0][1];
+		String street=(String) data[0][2];
+		String pincode=(String) data[0][3];
+		String city=(String) data[0][4];
+		String state=(String) data[0][5];
+		String country=(String) data[0][6];
+		String mobile=(String) data[0][7];
 		 prp.editAddress(name, building, street, pincode, city, state, country, mobile);
 		   Thread.sleep(1000);
 	}

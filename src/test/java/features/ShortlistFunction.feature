@@ -2,7 +2,7 @@ Feature: Manage Shortlisted Products
 
   Background:
     Given User navigate to the FirstCry URL
-   # When User log into the application with credentials
+    When User log into the application with credentials
 
   Scenario Outline: Shortlist and Manage Products
     When User shortlist few products

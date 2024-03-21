@@ -2,7 +2,10 @@ package steps;
 
 import java.util.ArrayList;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -34,27 +37,23 @@ public class StoreLocatorStep {
 	    ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
 	}
+	@Then("User should be on storelocator page")
+	public void user_should_be_on_storelocator_page() {
+	   
+	}
 
-	@Then("User should be on {string} page")
-	public void user_should_be_on_page(String string) {
-		String expectedresult=string;
+	@When("User select the {string},{string} and {string}")
+	public void user_select_the_and(String string, String string2, String string3) {
+	   sp.selectOneStore(string);
+	   sp.selectOneState(string2);
+	   sp.selectOneCity(string3);
 	}
 	
-	@When("User select the store Type,state and city")
-	public void user_select_the_store_type_state_and_city() throws InterruptedException {
-	    sp.clickOnSearchStore();
-	    sp.selectOneStore();
-	    Thread.sleep(1000);
-	    sp.clickOnSelectState();
-	    sp.selectOneState();
-	    Thread.sleep(1000);
-	    sp.selectOneCity();
-	    Thread.sleep(1000);
-	}
+	
 
 	@When("User click on the search button")
 	public void user_click_on_the_search_button() {
-	    sp.clickOnSearchStore();
+		sp.clickOnSearchStore();
 	}
 
 	@Then("User must be able to view the {string}")

@@ -7,12 +7,12 @@ Feature: Manage Cart
   Scenario Outline: Manage Cart Functions
     When User add a few products to the cart
     |Toys   |
-    |Jackets|
+    |comb   |
     And  User click on cart
     Then user can see "<allproducts>" in the cart
-    And User move a product to the shortlist
-    And User delete the product from the cart
-    Then the "<product>" should be removed from the cart
+    When User move a product to the shortlist
+    When User change the quantity of product from the cart
+    Then the "<quantity>" should be changed
 
 Examples:
       | product   |allproducts|

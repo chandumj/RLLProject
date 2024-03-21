@@ -50,18 +50,21 @@ public class CartFuncStep {
 
 
 	@When("User move a product to the shortlist")
-	public void user_move_a_product_to_the_shortlist() {
+	public void user_move_a_product_to_the_shortlist() throws InterruptedException {
 	    cp.moveToShortlist();
+	    Thread.sleep(1000);
 	}
 
-	@When("User delete the product from the cart")
-	public void user_delete_the_product_from_the_cart() {
-	    cp.clickOnRemoveItem();
+	@When("User change the quantity of product from the cart")
+	public void user_change_the_quantity_of_product_from_the_cart() {
+	    cp.clickOnQuantyIcon();
+	    cp.changeQuantity();
 	}
 
-	@Then("the {string} should be removed from the cart")
-	public void the_should_be_removed_from_the_cart(String string) {
-		String expectedresult=string;
+	@Then("the {string} should be changed")
+	public void the_should_be_changed(String string) {
+	   
 	}
+
 
 }
