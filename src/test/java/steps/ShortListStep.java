@@ -79,8 +79,12 @@ public class ShortListStep {
 
 	
 	@Then("the {string} should be removed from the shortlist")
-	public void the_should_be_removed_from_the_shortlist(String string) {
+	public void the_should_be_removed_from_the_shortlist(String string) throws InterruptedException {
 		String expectedresult=string;
+		hp.clickOnFirstcryIcon();
+		Thread.sleep(1000);
+		hp.hovertoMyAccount();
+		hp.clickOnLogout();
 	}
 
 }

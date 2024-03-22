@@ -13,12 +13,23 @@ public class SharedSteps {
 
 	public static WebDriver driver;
 	
+	public void setDriver(WebDriver driver) {
+		this.driver = driver;
+	}
 	@BeforeAll
 	public static void setup() {
-		driver=new ChromeDriver();
-		driver.manage().deleteAllCookies();
-		driver.manage().window().maximize();
+		//	System.setProperty("webdriver.chrome.driver","C:\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+			driver=new ChromeDriver();
+			driver.manage().deleteAllCookies();
+			driver.manage().window().maximize();
+
+		}
+	@AfterAll
+	public static void teardown() {
+		driver.quit();
+
 	}
+	
 	
 	@Given("User navigate to the FirstCry URL")
 	public void user_navigate_to_the_first_cry_url() {
@@ -41,8 +52,5 @@ public class SharedSteps {
 	public WebDriver getDriver() {
 		return driver;
 	}
-	@AfterAll
-	public static void tearDown() {
-		driver.quit();
-	}
+	
 }

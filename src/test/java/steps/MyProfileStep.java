@@ -70,6 +70,8 @@ public class MyProfileStep {
 	@Then("User can view the {string}")
 	public void user_can_view_the(String string) {
 		String expectedresult=string;
+		hp.hovertoMyAccount();
+		hp.clickOnLogout();
 	}
 
 }

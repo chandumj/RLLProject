@@ -1,10 +1,7 @@
 package steps;
 
-import java.util.ArrayList;
-
 import org.openqa.selenium.WebDriver;
 
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.HomePage;
@@ -39,8 +36,12 @@ public class AddToCartStepDefination {
 	}
 
 	@Then("{string} should be added to my cart")
-	public void should_be_added_to_my_cart(String string) {
+	public void should_be_added_to_my_cart(String string) throws InterruptedException {
 		  hp.clickonCart();
 		  String expectedresult=string;
+		  hp.clickOnFirstcryIcon();
+			Thread.sleep(1000);
+		  hp.hovertoMyAccount();
+		  hp.clickOnLogout();
 	}
 }

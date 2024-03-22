@@ -11,6 +11,9 @@ public class HomePage {
 	public WebDriver driver;
 	public Actions action;
 	
+	@FindBy(xpath = "//ul[@class='my_acc1']/descendant::span")
+	private WebElement logoutBtn;
+	
 	@FindBy(xpath = "//input[@id='search_box']")
 	private WebElement searchInputField;
 	
@@ -44,7 +47,7 @@ public class HomePage {
 	@FindBy(xpath = "//li[@class='navhide'][3]")
 	WebElement shortlistBtn;
 	
-	@FindBy(xpath = "//div[@class='fc_logo lft']/child::a")
+	@FindBy(xpath = "//div[@class='fc_logo lft']")
 	WebElement firstCryIcon;
 	
 	public HomePage(WebDriver driver) {
@@ -89,7 +92,12 @@ public class HomePage {
 		shortlistBtn.click();
 	}
 	public void clickOnFirstcryIcon() {
+		action.moveToElement(firstCryIcon).perform();
 		firstCryIcon.click();
+	}
+	
+	public void clickOnLogout() {
+		action.moveToElement(logoutBtn).click().build().perform();
 	}
 	
 	public boolean elementExists(WebElement element) {

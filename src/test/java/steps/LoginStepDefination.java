@@ -6,6 +6,7 @@ import org.testng.asserts.Assertion;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pages.HomePage;
 import pages.LoginPage;
 
 public class LoginStepDefination {
@@ -13,6 +14,7 @@ public class LoginStepDefination {
 	SharedSteps shared=new SharedSteps();
 	public WebDriver driver=shared.getDriver();
 	LoginPage lp=new LoginPage(driver);
+	HomePage hp=new HomePage(driver);
 	
 	@When("user click on the login button")
 	public void user_click_on_the_login_button() {
@@ -48,6 +50,9 @@ public class LoginStepDefination {
 		 String actualResult=driver.getTitle();
 		  String expectedResult="Baby Products Online India: Newborn Baby Products & Kids Online Shopping at FirstCry.com";
 		  Assert.assertEquals(actualResult, expectedResult);
+		  hp.hovertoMyAccount();
+		  hp.clickOnLogout();
+		  
 	}
 
 }

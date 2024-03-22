@@ -62,8 +62,11 @@ public class CartFuncStep {
 	}
 
 	@Then("the {string} should be changed")
-	public void the_should_be_changed(String string) {
-	   
+	public void the_should_be_changed(String string) throws InterruptedException {
+		 hp.clickOnFirstcryIcon();
+			Thread.sleep(1000);
+		  hp.hovertoMyAccount();
+		  hp.clickOnLogout();
 	}
 
 

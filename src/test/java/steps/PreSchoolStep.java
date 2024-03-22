@@ -56,7 +56,13 @@ public class PreSchoolStep {
 	
 
 	@Then("User should see preschools in {string}")
-	public void user_should_see_preschools_in(String string) {
+	public void user_should_see_preschools_in(String string) throws InterruptedException {
 		String expectedresult=string;
+		ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
+		driver.switchTo().window(tabs.get(0));
+		hp.clickOnFirstcryIcon();
+		Thread.sleep(1000);
+		hp.hovertoMyAccount();
+		hp.clickOnLogout();
 	}
 }

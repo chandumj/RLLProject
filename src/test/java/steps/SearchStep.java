@@ -37,7 +37,11 @@ public class SearchStep {
 	}
 
 	@Then("title should be {string}")
-	public void title_should_be(String string) {
+	public void title_should_be(String string) throws InterruptedException {
 		String expectedresult=string;
+		hp.clickOnFirstcryIcon();
+		Thread.sleep(1000);
+		hp.hovertoMyAccount();
+		hp.clickOnLogout();
 	}
 }

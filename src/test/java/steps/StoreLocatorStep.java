@@ -57,7 +57,11 @@ public class StoreLocatorStep {
 	}
 
 	@Then("User must be able to view the {string}")
-	public void user_must_be_able_to_view_the(String string) {
+	public void user_must_be_able_to_view_the(String string) throws InterruptedException {
 		String expectedresult=string;
+		 hp.clickOnFirstcryIcon();
+			Thread.sleep(1000);
+		  hp.hovertoMyAccount();
+		  hp.clickOnLogout();
 	}
 }
