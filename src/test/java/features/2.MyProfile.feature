@@ -1,4 +1,4 @@
-#@FirstCry
+@FirstCry
 Feature: Edit User Profile
 
   Background: 

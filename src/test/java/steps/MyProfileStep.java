@@ -52,7 +52,7 @@ public class MyProfileStep {
 		String city=(String) data[0][4];
 		String state=(String) data[0][5];
 		String country=(String) data[0][6];
-		String mobile=(String) data[0][7];
+		String mobile="9154787013";
 		 prp.editAddress(name, building, street, pincode, city, state, country, mobile);
 		   Thread.sleep(1000);
 	}
@@ -68,10 +68,14 @@ public class MyProfileStep {
 	}
 
 	@Then("User can view the {string}")
-	public void user_can_view_the(String string) {
+	public void user_can_view_the(String string) throws InterruptedException {
 		String expectedresult=string;
-		hp.hovertoMyAccount();
-		hp.clickOnLogout();
+		//hp.clickOnFirstcryIcon();
+		Thread.sleep(1000);
+		//hp.hovertoMyAccount();
+		//hp.clickOnLogout();
+		prp.clickonLogutprofile();
+		Thread.sleep(1000);
 	}
 
 }

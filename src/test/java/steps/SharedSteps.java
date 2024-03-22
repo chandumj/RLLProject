@@ -3,7 +3,9 @@ package steps;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
+import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
@@ -16,19 +18,19 @@ public class SharedSteps {
 	public void setDriver(WebDriver driver) {
 		this.driver = driver;
 	}
-	@BeforeAll
-	public static void setup() {
-		//	System.setProperty("webdriver.chrome.driver","C:\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-			driver=new ChromeDriver();
-			driver.manage().deleteAllCookies();
-			driver.manage().window().maximize();
-
-		}
-	@AfterAll
-	public static void teardown() {
-		driver.quit();
-
+	
+	@Before
+	public void setupScenario() {
+		driver=new ChromeDriver();
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
 	}
+	
+	@After
+	public void teardownScenario() {
+		driver.quit();
+	}
+	
 	
 	
 	@Given("User navigate to the FirstCry URL")

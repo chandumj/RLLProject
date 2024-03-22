@@ -39,6 +39,8 @@ public class SearchStep {
 	@Then("title should be {string}")
 	public void title_should_be(String string) throws InterruptedException {
 		String expectedresult=string;
+		ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
+		driver.switchTo().window(tabs.get(0));
 		hp.clickOnFirstcryIcon();
 		Thread.sleep(1000);
 		hp.hovertoMyAccount();

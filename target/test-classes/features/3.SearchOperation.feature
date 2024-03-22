@@ -14,4 +14,4 @@ Feature: Search Functionality
     Examples: 
       | searchproduct | title |
       | watches       |       |
-      | mobiles       |       |
+      | shirts        |       |

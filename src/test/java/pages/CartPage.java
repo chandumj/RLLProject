@@ -22,7 +22,7 @@ public class CartPage {
 	@FindBy(xpath = "(//div[@class='qty_popup-value'])[2]")
 	private WebElement changeQty;
 	
-	@FindBy(xpath = "(//span[@class='M15_21 removetext'])[2]")
+	@FindBy(xpath = "(//div[@title='Shortlist']")
 	private WebElement moveToShortlist;
 	
 	@FindBy(xpath = "//div[@id='shortlist_15934334']")

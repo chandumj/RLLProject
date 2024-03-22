@@ -40,7 +40,7 @@ public class ShortListStep {
 	}
 	@When("User shlist few products")
 	public void user_shortlist_few_products() throws InterruptedException {
-	   hp.EnterProduct("jacket");
+	 //  hp.EnterProduct("jacket");
 	  // hp.clickOnSearch();
 	   Thread.sleep(1000);
 	   sp.clickonFirstProduct();
@@ -65,7 +65,7 @@ public class ShortListStep {
 	@When("User add a product to the cart from the shortlist")
 	public void user_add_a_product_to_the_cart_from_the_shortlist() throws InterruptedException {
 	    slp.clickOnAddtoCartFromSL();
-	    slp.clickOnConfirmAddToCartFromSL();
+	 //   slp.clickOnConfirmAddToCartFromSL();
 	    Thread.sleep(1000);
 	}
 

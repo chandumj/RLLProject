@@ -40,6 +40,9 @@ public class MyProfilePage {
 	
 	@FindBy(id = "btnSaveAddress")
 	private WebElement save;
+	
+	@FindBy(xpath = "(//div[@class='sb_head lft wt'])[2]")
+	private WebElement logout;
 
 	public MyProfilePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -53,7 +56,7 @@ public class MyProfilePage {
 			editBtn.click();
 		}
 	}
-	public void editAddress(String name,String building,String street,String pincode,String city,String state,String country,String mobile) {
+	public void editAddress(String name,String building,String street,String pincode,String city,String state,String country,String mobile) throws InterruptedException {
 		this.name.clear();
 		this.name.sendKeys(name);
 		buildingName.clear();
@@ -64,16 +67,22 @@ public class MyProfilePage {
 		this.pincode.sendKeys(pincode);
 		this.city.clear();
 		this.city.sendKeys(city);
-		this.state.clear();
+		
 		this.state.sendKeys(state);
-		this.country.clear();
+		
 		this.country.sendKeys(country);
 		mobileNo.clear();
+		
 		mobileNo.sendKeys(mobile);
+		Thread.sleep(1000);
 	}
 	
 	public void clickOnSave() {
 		save.click();
+	}
+	
+	public void clickonLogutprofile() {
+		logout.click();
 	}
 	
 }
