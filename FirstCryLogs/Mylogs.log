@@ -1,0 +1,67 @@
+[INFO ] 2024-03-24 10:32:40.906 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-24 10:32:45.794 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-24 10:34:00.625 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-24 10:34:02.851 [main] SharedSteps - Login with Mobile Number Scenario Started
+[INFO ] 2024-03-24 10:34:07.168 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:34:09.079 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:34:09.137 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:34:09.300 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:34:12.727 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:34:49.297 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:34:49.793 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:34:49.820 [main] SharedSteps - Login with Mobile NumberScenario Completed
+[INFO ] 2024-03-24 10:34:51.209 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-24 10:36:16.312 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-24 10:36:16.803 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-24 10:36:18.633 [main] SharedSteps - Test Started
+[INFO ] 2024-03-24 10:36:18.784 [main] SharedSteps - Login with Mobile Number Scenario Started
+[INFO ] 2024-03-24 10:36:24.113 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:36:26.401 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:36:26.416 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:36:26.669 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:36:30.268 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:37:14.884 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:37:15.493 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:37:15.515 [main] SharedSteps - Login with Mobile NumberScenario Completed
+[INFO ] 2024-03-24 10:37:15.525 [main] SharedSteps - Test Success
+[INFO ] 2024-03-24 10:37:15.525 [main] SharedSteps - Test Started
+[INFO ] 2024-03-24 10:37:15.564 [main] SharedSteps - Edit user profile Scenario Started
+[INFO ] 2024-03-24 10:37:25.897 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:38:27.310 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:38:27.883 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:38:31.529 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:38:31.544 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:38:31.859 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:38:33.102 [main] SharedSteps - Test Case Failed
+[INFO ] 2024-03-24 10:38:33.118 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-24 10:38:33.134 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-24 10:38:33.134 [main] SharedSteps - Test Started
+[INFO ] 2024-03-24 10:38:33.165 [main] SharedSteps - Login, Search Scenario Started
+[INFO ] 2024-03-24 10:38:42.287 [main] SharedSteps - Test Case Passed
+[INFO ] 2024-03-24 10:38:58.063 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-24 10:38:58.063 [main] SharedSteps - Test Started
+[INFO ] 2024-03-24 10:38:58.075 [main] SharedSteps - Login, Search Scenario Started
+[INFO ] 2024-03-24 10:38:58.091 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-24 10:38:58.091 [main] SharedSteps - Test Started
+[INFO ] 2024-03-24 10:38:58.110 [main] SharedSteps - Login, Search and Add Product to Cart Scenario Started
+[INFO ] 2024-03-24 10:38:58.156 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-24 10:38:58.156 [main] SharedSteps - Test Started
+[INFO ] 2024-03-24 10:38:58.188 [main] SharedSteps - Login, Search and Add Product to Cart Scenario Started
+[INFO ] 2024-03-24 10:38:58.203 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-24 10:38:58.203 [main] SharedSteps - Test Started
+[INFO ] 2024-03-24 10:38:58.218 [main] SharedSteps - User must be able to find FirstCry store results Scenario Started
+[INFO ] 2024-03-24 10:38:58.250 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-24 10:38:58.251 [main] SharedSteps - Test Started
+[INFO ] 2024-03-24 10:38:58.288 [main] SharedSteps - Search for a city in the Preschool Locator Scenario Started
+[INFO ] 2024-03-24 10:38:58.313 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-24 10:38:58.313 [main] SharedSteps - Test Started
+[INFO ] 2024-03-24 10:38:58.329 [main] SharedSteps - Search for a city in the Preschool Locator Scenario Started
+[INFO ] 2024-03-24 10:38:58.352 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-24 10:38:58.352 [main] SharedSteps - Test Started
+[INFO ] 2024-03-24 10:38:58.376 [main] SharedSteps - Manage Cart Functions Scenario Started
+[INFO ] 2024-03-24 10:38:58.408 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-24 10:38:58.408 [main] SharedSteps - Test Started
+[INFO ] 2024-03-24 10:38:58.425 [main] SharedSteps - Shortlist and Manage Products Scenario Started
+[INFO ] 2024-03-24 10:38:58.451 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-24 10:38:59.662 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-24 10:39:02.996 [main] SharedSteps - Listener Closed

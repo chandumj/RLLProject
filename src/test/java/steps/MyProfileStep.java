@@ -44,7 +44,7 @@ public class MyProfileStep {
 
 	@When("User add\\/change delivery address of {string}")
 	public void user_add_change_delivery_address_of(String string) throws InterruptedException, EncryptedDocumentException, IOException {
-		Object[][] data=xl.getTestData("sheet1");
+		Object[][] data=xl.getTestData(string);
 		String name=(String) data[0][0];
 		String building=(String) data[0][1];
 		String street=(String) data[0][2];
