@@ -5,7 +5,7 @@ Background:
    Given User navigate to the FirstCry URL
    When User log into the application with credentials
 
- Scenario Outline: User must be able to find FirstCry store results
+ Scenario Outline: Find FirstCry Stores
     When User must hover over the stores&preschool
     And User must click on the find stores from drop down
     And User switches focus to the new tab

@@ -5,7 +5,7 @@ Feature: Find Preschool Locator
     Given User navigate to the FirstCry URL
    When User log into the application with credentials
 
-  Scenario Outline: Search for a city in the Preschool Locator
+  Scenario Outline: Search for a Preschool in city
     
     When user can click on storeandpreschool
     And user can click on findpreschool

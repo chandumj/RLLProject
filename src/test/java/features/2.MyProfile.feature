@@ -15,6 +15,8 @@ Feature: Edit User Profile
     Then User can view the "<edited address>"
 
     Examples: 
-      | user   | edited address |
-      | sheet1 |                |
+      | user        | edited address |
+      | ValidData   |                |
+      | InvalidData |                |
+      | MissingData |                |
      

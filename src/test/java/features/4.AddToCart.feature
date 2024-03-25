@@ -5,7 +5,7 @@ Feature: Add to Cart Functionality
     Given User navigate to the FirstCry URL
     When User log into the application with credentials
 
-  Scenario Outline: Login, Search and Add Product to Cart
+  Scenario Outline: Add Product to Cart
     When User search for a "<product_name>"
     And Click on one Product
     And User switches focus to the new tab

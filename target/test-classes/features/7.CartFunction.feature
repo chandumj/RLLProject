@@ -16,5 +16,5 @@ Feature: Manage Cart
     Then the "<quantity>" should be changed
 
 Examples:
-      | product   |allproducts|
-      |           |           |
+      | allproducts   |quantity    |
+      |               |            |

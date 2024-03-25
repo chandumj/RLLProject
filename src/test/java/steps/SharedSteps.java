@@ -34,8 +34,6 @@ public class SharedSteps {
 	public static ExtentReports extentReport;
 	ExtentTest extentTest;
 	int i;
-	int j;
-	String scenariogroup="";
 
 	@BeforeAll
 	public static void setUp() {
@@ -54,16 +52,12 @@ public class SharedSteps {
 
 	@Before
 	public void setupScenario(Scenario scenario) {
-//		if(!(scenariogroup.equals(scenario.getName()))) {
-//			scenariogroup=scenario.getName();
-//			j=1;
-//		}
-		logger.trace(scenario.getName() + " Scenario Started");
-		extentTest = extentReport.createTest(scenario.getName() + " Scenario " + j);
+		logger.info(scenario.getName() + " Scenario Started");
+		extentTest = extentReport.createTest(scenario.getName() + " Scenario");
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		i = 1;
-		j++;
+		
 	}
 
 	@AfterStep
@@ -97,7 +91,7 @@ public class SharedSteps {
 
 		// Switch back to the original window
 		driver.switchTo().window(originalHandle);
-		logger.trace(scenario.getName() + "Scenario Completed");
+		logger.info(scenario.getName() + "Scenario Completed");
 	//	scenariogroup=scenario.getName();
 
 	}

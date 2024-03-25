@@ -1,7 +1,7 @@
 @FirstCry
 Feature: Login with UserId
 
-  Scenario Outline: Login with Mobile Number
+  Scenario Outline: Login with UserId
     Given User navigate to the FirstCry URL
     When user click on the login button
     Then user should be on login Page
@@ -14,4 +14,4 @@ Feature: Login with UserId
       | UserId                   |
       | chandumj787013@gmail.com |
       | chandumj@gmail.co        |
-      |                          |
+      
