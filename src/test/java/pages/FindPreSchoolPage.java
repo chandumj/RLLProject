@@ -1,13 +1,19 @@
 package pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class FindPreSchoolPage {
 
 	public WebDriver driver;
+	public WebDriverWait wait;
 	
 	@FindBy(xpath = "//input[@id='pincode-center-finder']")
 	private WebElement cityInputField;
@@ -20,17 +26,21 @@ public class FindPreSchoolPage {
 
 	public FindPreSchoolPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
+		wait=new WebDriverWait(driver, Duration.ofSeconds(5));
 	}
 	
 	public void enterCity(String city) {
+		wait.until(ExpectedConditions.visibilityOf(cityInputField));
 		cityInputField.sendKeys(city);
 	}
 	
 	public void clickOnCitySearch() {
+		wait.until(ExpectedConditions.visibilityOf(citySearchBtn));
 		citySearchBtn.click();
 	}
 	
 	public void selectAnySchool() {
+		wait.until(ExpectedConditions.visibilityOf(anyPreSchool));
 		anyPreSchool.click();
 	}
 }

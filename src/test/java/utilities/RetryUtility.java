@@ -1,9 +1,10 @@
 package utilities;
 
 import org.testng.IRetryAnalyzer;
+import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class RetryUtility implements IRetryAnalyzer {
+public class RetryUtility implements IRetryAnalyzer,ITestListener {
 	private int retryCount = 0;
     private static final int MAX_RETRY_COUNT = 3; 
     

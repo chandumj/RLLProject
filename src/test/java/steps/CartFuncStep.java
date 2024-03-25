@@ -1,5 +1,6 @@
 package steps;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,20 +27,19 @@ public class CartFuncStep {
 		List<List<String>> userLists = dataTable.asLists(String.class);
 		for (List<String> userList : userLists) {
 			 hp.EnterProduct(userList.get(0));
-			  // hp.clickOnSearch();
-			   Thread.sleep(1000);
+			
 			   sp.clickonFirstProduct();
+			   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
 			   ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
 			   driver.switchTo().window(tabs.get(tabs.size()-1));
 				pp.clickOnAddToCart();
-				Thread.sleep(1000);
+				
 		}
 	}
 
 	@When("User click on cart")
 	public void user_click_on_cart() throws InterruptedException {
 	    hp.clickonCart();
-	    Thread.sleep(1000);
 	}
 	
 	@Then("user can see {string} in the cart")
@@ -52,7 +52,6 @@ public class CartFuncStep {
 	@When("User move a product to the shortlist")
 	public void user_move_a_product_to_the_shortlist() throws InterruptedException {
 	    cp.moveToShortlist();
-	    Thread.sleep(1000);
 	}
 
 	@When("User change the quantity of product from the cart")
@@ -64,7 +63,6 @@ public class CartFuncStep {
 	@Then("the {string} should be changed")
 	public void the_should_be_changed(String string) throws InterruptedException {
 		 hp.clickOnFirstcryIcon();
-			Thread.sleep(1000);
 		  hp.hovertoMyAccount();
 		  hp.clickOnLogout();
 	}

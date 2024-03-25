@@ -1,11 +1,8 @@
 package steps;
 
 import java.util.ArrayList;
-import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -39,10 +36,9 @@ public class SearchStep {
 	@Then("title should be {string}")
 	public void title_should_be(String string) throws InterruptedException {
 		String expectedresult=string;
-		ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
-		driver.switchTo().window(tabs.get(0));
+//		ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
+//		driver.switchTo().window(tabs.get(0));
 		hp.clickOnFirstcryIcon();
-		Thread.sleep(1000);
 		hp.hovertoMyAccount();
 		hp.clickOnLogout();
 	}

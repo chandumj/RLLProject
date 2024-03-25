@@ -7,8 +7,8 @@ Feature: Manage Cart
 
   Scenario Outline: Manage Cart Functions
     When User add a few products to the cart
-    |pants   |
-    |books   |
+    |pants for boys   |
+    |books            |
     And  User click on cart
     Then user can see "<allproducts>" in the cart
     When User move a product to the shortlist

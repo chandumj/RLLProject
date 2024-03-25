@@ -29,32 +29,17 @@ public class ShortListStep {
 		List<List<String>> userLists = dataTable.asLists(String.class);
 		for (List<String> userList : userLists) {
 			 hp.EnterProduct(userList.get(0));
-			  // hp.clickOnSearch();
-			   Thread.sleep(1000);
 			   sp.clickonFirstProduct();
 			   ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
 			   driver.switchTo().window(tabs.get(tabs.size()-1));
 				pp.clickOnShortlistBtn();
-				Thread.sleep(1000);
 		}
-	}
-	@When("User shlist few products")
-	public void user_shortlist_few_products() throws InterruptedException {
-	 //  hp.EnterProduct("jacket");
-	  // hp.clickOnSearch();
-	   Thread.sleep(1000);
-	   sp.clickonFirstProduct();
-	   ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
-	   driver.switchTo().window(tabs.get(1));
-		pp.clickOnShortlistBtn();
-		Thread.sleep(1000);
 	}
 
 	@When("User click on the Shortlist button")
 	public void user_click_on_the_shortlist_button() throws InterruptedException {
 	    hp.clickOnFirstcryIcon();
 		hp.clickonShortlist();
-		Thread.sleep(1000);
 		
 	}
 	@Then("user can see {string} in the shortlist")
@@ -66,7 +51,7 @@ public class ShortListStep {
 	public void user_add_a_product_to_the_cart_from_the_shortlist() throws InterruptedException {
 	    slp.clickOnAddtoCartFromSL();
 	 //   slp.clickOnConfirmAddToCartFromSL();
-	    Thread.sleep(1000);
+	    
 	}
 
 	@When("User delete a product from the shortlist")
@@ -74,7 +59,6 @@ public class ShortListStep {
 	    slp.clickOnDeleteFromSL();
 	    Alert a = driver.switchTo().alert();
 	    a.accept();
-	    Thread.sleep(2000);
 	}
 
 	
@@ -82,7 +66,6 @@ public class ShortListStep {
 	public void the_should_be_removed_from_the_shortlist(String string) throws InterruptedException {
 		String expectedresult=string;
 		hp.clickOnFirstcryIcon();
-		Thread.sleep(1000);
 		hp.hovertoMyAccount();
 		hp.clickOnLogout();
 	}

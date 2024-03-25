@@ -27,7 +27,6 @@ public class MyProfileStep {
 	@When("User select My Profile")
 	public void user_select_my_profile() throws InterruptedException {
 	   hp.clickonMyProfile();
-	   Thread.sleep(1000);
 	}
 	
 	@Then("User should be on profile page")
@@ -54,12 +53,6 @@ public class MyProfileStep {
 		String country=(String) data[0][6];
 		String mobile="9154787013";
 		 prp.editAddress(name, building, street, pincode, city, state, country, mobile);
-		   Thread.sleep(1000);
-	}
-	@When("User add delivery address like {string},{string} ,{string},{string},{string},{string},{string},{string}")
-	public void user_add_delivery_address_like(String name, String building, String street, String pincode, String city, String state, String country, String mobile) throws InterruptedException {
-	   prp.editAddress(name, building, street, pincode, city, state, country, mobile);
-	   Thread.sleep(1000);
 	}
 
 	@When("click on Save")
@@ -70,12 +63,8 @@ public class MyProfileStep {
 	@Then("User can view the {string}")
 	public void user_can_view_the(String string) throws InterruptedException {
 		String expectedresult=string;
-		//hp.clickOnFirstcryIcon();
-		Thread.sleep(1000);
-		//hp.hovertoMyAccount();
-		//hp.clickOnLogout();
+		
 		prp.clickonLogutprofile();
-		Thread.sleep(1000);
 	}
 
 }

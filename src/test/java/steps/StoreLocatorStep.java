@@ -33,7 +33,6 @@ public class StoreLocatorStep {
 
 	@When("User switches focus to the new tab")
 	public void user_switches_focus_to_the_new_tab() throws InterruptedException {
-		Thread.sleep(2000);
 	    ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
 	}
@@ -60,7 +59,6 @@ public class StoreLocatorStep {
 	public void user_must_be_able_to_view_the(String string) throws InterruptedException {
 		String expectedresult=string;
 		 hp.clickOnFirstcryIcon();
-			Thread.sleep(1000);
 		  hp.hovertoMyAccount();
 		  hp.clickOnLogout();
 	}

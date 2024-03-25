@@ -14,6 +14,6 @@ Background:
     And User click on the search button
     Then User must be able to view the "<storeresult>"
  Examples:
-    |storeType|state |  city | storeresult |
-    |    FirstCry     |  Andhra Pradesh  |   Anakapalle Town     |      |
+    |   storeType     |       state      |         city          | storeresult |
+    |    FirstCry     |  Andhra Pradesh  |   Anakapalle Town     |             |
   

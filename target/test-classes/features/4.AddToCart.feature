@@ -15,4 +15,4 @@ Feature: Add to Cart Functionality
     Examples: 
       | product_name | product |
       | shirts       |         |
-      | watches      |         |
+     

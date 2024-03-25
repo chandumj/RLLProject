@@ -1,15 +1,20 @@
 package pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MyProfilePage {
 
 	public WebDriver driver;
 	public Actions actions;
+	public WebDriverWait wait;
 	
 	@FindBy(xpath = "//div[@class='spmn']/child::span[1]")
 	private WebElement editBtn;
@@ -47,11 +52,11 @@ public class MyProfilePage {
 	public MyProfilePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		actions=new Actions(driver);
+		wait=new WebDriverWait(driver, Duration.ofSeconds(5));
 	}
 	
 	public void clickonEditbtn() {
 		if(editBtn.isEnabled()) {
-			
 			actions.moveToElement(editBtn).perform();
 			editBtn.click();
 		}
@@ -65,23 +70,25 @@ public class MyProfilePage {
 		streetAddress.sendKeys(street);
 		this.pincode.clear();
 		this.pincode.sendKeys(pincode);
-		this.city.clear();
+		
 		this.city.sendKeys(city);
 		
 		this.state.sendKeys(state);
 		
 		this.country.sendKeys(country);
-		mobileNo.clear();
 		
+		mobileNo.clear();
 		mobileNo.sendKeys(mobile);
-		Thread.sleep(1000);
+		
 	}
 	
 	public void clickOnSave() {
+		wait.until(ExpectedConditions.visibilityOf(save));
 		save.click();
 	}
 	
 	public void clickonLogutprofile() {
+		wait.until(ExpectedConditions.visibilityOf(logout));
 		logout.click();
 	}
 	

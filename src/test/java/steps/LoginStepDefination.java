@@ -1,8 +1,9 @@
 package steps;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.asserts.Assertion;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -18,6 +19,7 @@ public class LoginStepDefination {
 	
 	@When("user click on the login button")
 	public void user_click_on_the_login_button() {
+		
 	   lp.clickOnLogin();
 	}
 	@Then("user should be on login Page")
@@ -28,13 +30,13 @@ public class LoginStepDefination {
 	}
 
 	@When("User enter {string}")
-	public void user_enter(String string) {
+	public void user_enter(String string){
 		 lp.enterEmail(string);
 	}
 
 	@When("user click on the continue button")
 	public void user_click_on_the_continue_button() throws InterruptedException {
-	    Thread.sleep(2000);
+		Thread.sleep(1000);
 		lp.clickOnContinue();
 	}
 

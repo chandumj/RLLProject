@@ -1,5 +1,5 @@
 @FirstCry
-Feature: Login with Mobile Number
+Feature: Login with UserId
 
   Scenario Outline: Login with Mobile Number
     Given User navigate to the FirstCry URL
@@ -13,3 +13,5 @@ Feature: Login with Mobile Number
     Examples: 
       | UserId                   |
       | chandumj787013@gmail.com |
+      | chandumj@gmail.co        |
+      |                          |

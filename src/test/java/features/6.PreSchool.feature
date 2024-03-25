@@ -18,4 +18,4 @@ Feature: Find Preschool Locator
     Examples: 
       | city      |expectedcity|preschool|
       | Agra      |            |				 |
-      | Bengaluru |            |         |
+      

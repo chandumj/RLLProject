@@ -3,6 +3,7 @@ package steps;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.ArrayList;
 
 import org.apache.logging.log4j.LogManager;
@@ -28,69 +29,79 @@ import utilities.ScreenShotUtility;
 public class SharedSteps {
 
 	public static WebDriver driver;
-	
+
 	public static Logger logger;
 	public static ExtentReports extentReport;
 	ExtentTest extentTest;
-	
+	int i;
+	int j;
+	String scenariogroup="";
+
 	@BeforeAll
 	public static void setUp() {
 		logger = LogManager.getLogger(SharedSteps.class);
 		logger.info("Execution Started");
 		extentReport = new ExtentReports();
-		 ExtentSparkReporter sparkreporter = new ExtentSparkReporter("FirstCryExtentReport.html");
-		 extentReport.setSystemInfo("OS", System.getProperty("os.name"));
-        extentReport.setSystemInfo("Java Version", System.getProperty("java.version"));
-		 extentReport.setSystemInfo("Browser","Chrome");
-		 extentReport.setSystemInfo("Team Name","TeamAlpha001");
-		 extentReport.attachReporter(sparkreporter);
-		 driver=new ChromeDriver();
+		ExtentSparkReporter sparkreporter = new ExtentSparkReporter("FirstCryExtentReport.html");
+		extentReport.setSystemInfo("OS", System.getProperty("os.name"));
+		extentReport.setSystemInfo("Java Version", System.getProperty("java.version"));
+		extentReport.setSystemInfo("Browser", "Chrome");
+		extentReport.setSystemInfo("Team Name", "TeamAlpha001");
+		extentReport.attachReporter(sparkreporter);
+		driver = new ChromeDriver();
+		
 	}
-	
+
 	@Before
 	public void setupScenario(Scenario scenario) {
-		logger.info(scenario.getName()+" Scenario Started");
-		extentTest=extentReport.createTest(scenario.getName());
+//		if(!(scenariogroup.equals(scenario.getName()))) {
+//			scenariogroup=scenario.getName();
+//			j=1;
+//		}
+		logger.trace(scenario.getName() + " Scenario Started");
+		extentTest = extentReport.createTest(scenario.getName() + " Scenario " + j);
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
+		i = 1;
+		j++;
 	}
-	
+
 	@AfterStep
-	public void afterStep(Scenario scenario) {
-		
-		if(scenario.isFailed()) {
-			extentTest.fail(scenario.getId()+" Test case Failed");
-			String path=ScreenShotUtility.captureScreenshot(scenario.getName());
+	public void afterStep(Scenario scenario) throws NoSuchMethodException, SecurityException {
+		if (scenario.isFailed()) {
+			extentTest.fail("Step-" + i + ": Test case Failed");
+			String path = ScreenShotUtility.captureScreenshot(scenario.getName());
 			extentTest.addScreenCaptureFromPath(path, "Test Failed");
-			logger.info("Test Case Failed");
+			logger.fatal("Step-" + i + " Test Case Failed");
+		} else {
+			extentTest.pass("Step-" + i + ": Test Case Passed");
+			logger.debug("Step-" + i + " Test Case Passed");
 		}
-		else {
-			extentTest.pass(scenario.getId()+" Test Case Passed");
-			logger.info("Test Case Passed");
-		}
+		i++;
 	}
-	
+
 	@After
 	public void teardownScenario(Scenario scenario) {
-		 String originalHandle = driver.getWindowHandle();
+		String originalHandle = driver.getWindowHandle();
 
-	        // Get all window handles
-	        ArrayList<String> allHandles = new ArrayList<>(driver.getWindowHandles());
+		// Get all window handles
+		ArrayList<String> allHandles = new ArrayList<>(driver.getWindowHandles());
 
-	        // Close all other windows except the original one
-	        for (String handle : allHandles) {
-	            if (!handle.equals(originalHandle)) {
-	                driver.switchTo().window(handle);
-	                driver.close();
-	            }
-	        }
+		// Close all other windows except the original one
+		for (String handle : allHandles) {
+			if (!handle.equals(originalHandle)) {
+				driver.switchTo().window(handle);
+				driver.close();
+			}
+		}
 
-	        // Switch back to the original window
-	        driver.switchTo().window(originalHandle);
-	        logger.info(scenario.getName()+"Scenario Completed");
-		
+		// Switch back to the original window
+		driver.switchTo().window(originalHandle);
+		logger.trace(scenario.getName() + "Scenario Completed");
+	//	scenariogroup=scenario.getName();
+
 	}
-	
+
 	@AfterAll
 	public static void tearDown() throws IOException {
 		extentReport.flush();
@@ -98,29 +109,26 @@ public class SharedSteps {
 		Desktop.getDesktop().browse(new File("FirstCryExtentReport.html").toURI());
 		logger.info("Execution Finished");
 	}
-	
-	
-	
+
 	@Given("User navigate to the FirstCry URL")
 	public void user_navigate_to_the_first_cry_url() {
-	    driver.get("https://www.firstcry.com/");
-	    driver.manage().deleteAllCookies();
+		driver.get("https://www.firstcry.com/");
+		driver.manage().deleteAllCookies();
 	}
 
 	@When("User log into the application with credentials")
 	public void user_log_into_the_application_with_credentials() throws InterruptedException {
-	    LoginPage lp=new LoginPage(driver);
-	    
-	    Thread.sleep(5000);
+		LoginPage lp = new LoginPage(driver);
 		lp.clickOnLogin();
-	   lp.enterEmail("chandumj787013@gmail.com");
-	   Thread.sleep(1000);
-	    lp.clickOnContinue();
-	    Thread.sleep(30000);
-	   lp.clickOnSubmit();
+		lp.enterEmail("chandumj787013@gmail.com");
+		Thread.sleep(1000);
+		lp.clickOnContinue();
+		Thread.sleep(30000);
+		lp.clickOnSubmit();
 	}
+
 	public WebDriver getDriver() {
 		return driver;
 	}
-	
+
 }

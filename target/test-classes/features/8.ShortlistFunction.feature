@@ -7,8 +7,8 @@ Feature: Manage Shortlisted Products
 
   Scenario Outline: Shortlist and Manage Products
     When User shortlist few products
-    |Toys   |
-    |mobiles|
+    |Toys    |
+    |shirts  |
     
     And User click on the Shortlist button
     Then user can see "<allproducts>" in the shortlist

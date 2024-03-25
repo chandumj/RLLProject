@@ -1,13 +1,17 @@
 package pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CartPage {
 
 	public WebDriver driver;
+	public WebDriverWait wait;
 	
 	@FindBy(xpath = "//input[@id='cty_pin']")
 	private WebElement pinCode;
@@ -33,6 +37,7 @@ public class CartPage {
 
 	public CartPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
+		wait=new WebDriverWait(driver, Duration.ofSeconds(5));
 	}
 	
 	public void EnterPinCode(String pincode) {

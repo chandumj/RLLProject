@@ -1,15 +1,20 @@
 package pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 
 	public WebDriver driver;
 	public Actions action;
+	public WebDriverWait wait;
 	
 	@FindBy(xpath = "//ul[@class='my_acc1']/descendant::span")
 	private WebElement logoutBtn;
@@ -53,12 +58,13 @@ public class HomePage {
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		action=new Actions(driver);
+		wait=new WebDriverWait(driver, Duration.ofSeconds(5));
 	}
 	
 	public void EnterProduct(String productName) throws InterruptedException {
 		searchInputField.clear();
 		searchInputField.sendKeys(productName);
-		Thread.sleep(1000);
+		wait.until(ExpectedConditions.elementToBeClickable(firstItemInList));
 		action.moveToElement(firstItemInList).click().build().perform();
 	}
 	
@@ -67,6 +73,7 @@ public class HomePage {
 	}
 	
 	public void hovertoMyAccount() {
+		wait.until(ExpectedConditions.visibilityOf(myAccount));
 		action.moveToElement(myAccount).perform();
 		
 	}
@@ -92,8 +99,8 @@ public class HomePage {
 		shortlistBtn.click();
 	}
 	public void clickOnFirstcryIcon() {
-		action.moveToElement(firstCryIcon).perform();
-		firstCryIcon.click();
+		wait.until(ExpectedConditions.visibilityOf(myAccount));
+		action.moveToElement(firstCryIcon).click().build().perform();
 	}
 	
 	public void clickOnLogout() {
@@ -102,5 +109,8 @@ public class HomePage {
 	
 	public boolean elementExists(WebElement element) {
 		return element.isEnabled();
+	}
+	public WebDriverWait getWait() {
+		return wait;
 	}
 }
