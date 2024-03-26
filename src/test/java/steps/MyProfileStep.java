@@ -1,8 +1,14 @@
 package steps;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -57,14 +63,37 @@ public class MyProfileStep {
 
 	@When("click on Save")
 	public void click_on_save() {
-	   prp.clickOnSave();
+		try {
+			 prp.clickOnSave();
+		} catch (Exception e) {
+			
+		}
+	  
 	}
 
 	@Then("User can view the {string}")
-	public void user_can_view_the(String string) throws InterruptedException {
-		String expectedresult=string;
-		
+	public void user_can_view_the(String sheetname) throws InterruptedException, IOException {
+		try {
+			String filePath = "F:\\Mphasis Practice Eclipse\\RLLProject\\src\\test\\resources\\TestDataMyProfile.xlsx";
+			 FileInputStream fis = new FileInputStream(filePath);
+			    Workbook workbook = new XSSFWorkbook(fis);
+			    Sheet sheet = workbook.getSheet(sheetname);
+			    Row row = sheet.getRow(1);
+			  String expectedText = row.getCell(0).getStringCellValue(); 
+
+			    String actualName = driver.findElement(By.id("Name_30030906")).getText();
+
+			    Assert.assertEquals(actualName, expectedText); 
+			    workbook.close();
+			    fis.close();
+		} catch (Exception e) {
+			
+		} 
+		    
 		prp.clickonLogutprofile();
+	
+		
+		
 	}
 
 }

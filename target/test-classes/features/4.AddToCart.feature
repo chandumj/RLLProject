@@ -14,5 +14,6 @@ Feature: Add to Cart Functionality
 
     Examples: 
       | product_name | product |
-      | shirts       |         |
+      |    Pine Kids Cotton Woven Full Sleeves Solid Color Shirt - Orange | Pine Kids Cotton Woven Full Sleeves Solid Color Shirt - Orange |
+      |     Babyhug Cotton Woven Full Sleeves Checked Shirt - Navy Blue | Babyhug Cotton Woven Full Sleeves Checked Shirt - Navy Blue    |
      

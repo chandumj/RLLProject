@@ -43,8 +43,10 @@ public class ShortListStep {
 		
 	}
 	@Then("user can see {string} in the shortlist")
-	public void user_can_see_in_the_shortlist(String string) {
-		String expectedresult=string;
+	public void user_can_see_in_the_shortlist(String expectedTitle) {
+		 String actualTitle = driver.getTitle();
+		    assert expectedTitle.equals(actualTitle);
+
 	}
 
 	@When("User add a product to the cart from the shortlist")
@@ -64,7 +66,7 @@ public class ShortListStep {
 	
 	@Then("the {string} should be removed from the shortlist")
 	public void the_should_be_removed_from_the_shortlist(String string) throws InterruptedException {
-		String expectedresult=string;
+		
 		hp.clickOnFirstcryIcon();
 		hp.hovertoMyAccount();
 		hp.clickOnLogout();

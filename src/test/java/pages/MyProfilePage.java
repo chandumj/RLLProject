@@ -16,6 +16,9 @@ public class MyProfilePage {
 	public Actions actions;
 	public WebDriverWait wait;
 	
+	@FindBy(xpath = "//span[@class='validation-summary-errors'])[1]")
+	private WebElement pincodeError;
+	
 	@FindBy(xpath = "//div[@class='spmn']/child::span[1]")
 	private WebElement editBtn;
 	
@@ -90,6 +93,10 @@ public class MyProfilePage {
 	public void clickonLogutprofile() {
 		wait.until(ExpectedConditions.visibilityOf(logout));
 		logout.click();
+	}
+	
+	public boolean isErrorElementexists() {
+		return pincodeError.isEnabled();
 	}
 	
 }

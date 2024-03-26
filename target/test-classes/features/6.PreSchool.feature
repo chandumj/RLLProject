@@ -17,5 +17,5 @@ Feature: Find Preschool Locator
 
     Examples: 
       | city      |expectedcity|preschool|
-      | Agra      |            |				 |
+      | Agra      |     Agra       |	FirstCry Intellitots Preschool Locator: Find a Preschool Near You			 |
       

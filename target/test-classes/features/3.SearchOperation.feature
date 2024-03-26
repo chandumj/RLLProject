@@ -13,5 +13,5 @@ Feature: Search Functionality
 
     Examples: 
       | searchproduct | title |
-      | watches       |       |
-     
+      | shirts       |   Buy Babyhug Cotton Woven Full Sleeves Checked Shirt - Navy Blue for Boys (3-4 Years) Online in India, Shop at FirstCry.com - 15934333    |
+      |123456          | Baby Products Online India: Newborn Baby Products & Kids Online Shopping at FirstCry.com|

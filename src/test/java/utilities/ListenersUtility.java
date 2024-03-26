@@ -1,7 +1,5 @@
 package utilities;
 
-import java.io.IOException;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.ITestContext;
@@ -38,13 +36,7 @@ public class ListenersUtility extends SharedSteps implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		logger.info("Test Failed");
-		try {
-			ExcelUtility.writeTestResult(row, "Fail");
-			row++;
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 		
 	}
 
@@ -56,18 +48,13 @@ public class ListenersUtility extends SharedSteps implements ITestListener {
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		logger.info("Test Success");
-		try {
-			ExcelUtility.writeTestResult(row, "Pass");
-			row++;
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 	}
 
 	@Override
 	public void onFinish(ITestContext context) {
 		logger.info("Listener Closed");
+		
 	}
 	
 	

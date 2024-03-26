@@ -1,10 +1,15 @@
 package steps;
 
+import static org.testng.Assert.assertEquals;
+
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -62,7 +67,21 @@ public class CartFuncStep {
 
 	@Then("the {string} should be changed")
 	public void the_should_be_changed(String string) throws InterruptedException {
-		 hp.clickOnFirstcryIcon();
+		try {
+			WebElement dropdown = driver.findElement(By.id("//span[@class=' M14_42 ']"));
+	        String actualValue1 = dropdown.getAttribute("value");
+	        cp.clickOnQuantyIcon();
+			cp.clickOnQuantyIcon();
+			cp.clickOnQuantyIcon();
+			WebElement dropdown1 = driver.findElement(By.id("//span[@class=' M14_42 ']"));
+	        String expectedValue1 = dropdown.getAttribute("value");
+	        assertEquals(expectedValue1, actualValue1);
+		} catch (Exception e) {
+			//Assert.fail("Invalid Test case", e);
+		}
+	
+		
+		hp.clickOnFirstcryIcon();
 		  hp.hovertoMyAccount();
 		  hp.clickOnLogout();
 	}

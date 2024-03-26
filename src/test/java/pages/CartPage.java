@@ -34,6 +34,12 @@ public class CartPage {
 	
 	@FindBy(xpath = "//label[@id='ShortlistTab']")
 	private WebElement myShortlist;
+	
+	@FindBy(xpath="//pro15666795[contains(text(),'Pine Kids Cotton Woven Full Sleeves Solid Color Sh')]")
+	private WebElement productInCart;
+	
+	@FindBy(xpath="//pro15414449[contains(text(),'Pine Kids Cotton Woven Full Sleeve Denim Hooded Sh')]")
+	private WebElement productInCart1;
 
 	public CartPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -58,4 +64,10 @@ public class CartPage {
 	public void clickOnQuantyIcon() {
 		quantityIcon.click();
 	}
+	
+
+	public String getProductNameFromCart() {
+        return productInCart.getText();
+        //return productInCart1.getText();
+    }
 }

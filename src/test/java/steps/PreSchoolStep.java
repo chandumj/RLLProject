@@ -2,7 +2,9 @@ package steps;
 
 import java.util.ArrayList;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -36,8 +38,9 @@ public class PreSchoolStep {
 	}
 
 	@Then("user should be on {string} tab")
-	public void user_should_be_on_tab(String string) {
-		String expectedresult=string;
+	public void user_should_be_on_tab(String expectedTitle) {
+		 String actualTitle = driver.getTitle();
+		    Assert.assertEquals(expectedTitle, actualTitle);
 	}
 	
 	@When("user search for {string}")
@@ -54,8 +57,14 @@ public class PreSchoolStep {
 	
 
 	@Then("User should see preschools in {string}")
-	public void user_should_see_preschools_in(String string) throws InterruptedException {
-		String expectedresult=string;
+	public void user_should_see_preschools_in(String expectedCity) throws InterruptedException {
+		
+		String actualCity = driver.findElement(By.xpath("//*[@id='schoolFinder_breadcrumb']/div/div/div/nav/ul/li[3]")).getText();
+		try {
+			Assert.assertEquals(expectedCity, actualCity);
+		} catch (Exception e) {
+			
+		}
 		
 		ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(0));

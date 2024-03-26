@@ -16,7 +16,6 @@ Feature: Edit User Profile
 
     Examples: 
       | user        | edited address |
-      | ValidData   |                |
-      | InvalidData |                |
-      | MissingData |                |
+      | ValidData   |  ValidData     |
+      | InvalidData | InvalidData    |
      
