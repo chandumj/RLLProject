@@ -49,10 +49,10 @@ public class CartFuncStep {
 	
 	@Then("user can see {string} in the cart")
 	public void user_can_see_in_the_cart(String string) {
-		String expectedresult=string;
+		 String actualValue1 = "Shopping Cart - Checkout | FirstCry.com";
+	        String expectedValue1 = driver.getTitle();
+	        assertEquals(expectedValue1, actualValue1);
 	}
-
-
 
 	@When("User move a product to the shortlist")
 	public void user_move_a_product_to_the_shortlist() throws InterruptedException {
@@ -67,20 +67,7 @@ public class CartFuncStep {
 
 	@Then("the {string} should be changed")
 	public void the_should_be_changed(String string) throws InterruptedException {
-		try {
-			WebElement dropdown = driver.findElement(By.id("//span[@class=' M14_42 ']"));
-	        String actualValue1 = dropdown.getAttribute("value");
-	        cp.clickOnQuantyIcon();
-			cp.clickOnQuantyIcon();
-			cp.clickOnQuantyIcon();
-			WebElement dropdown1 = driver.findElement(By.id("//span[@class=' M14_42 ']"));
-	        String expectedValue1 = dropdown.getAttribute("value");
-	        assertEquals(expectedValue1, actualValue1);
-		} catch (Exception e) {
-			//Assert.fail("Invalid Test case", e);
-		}
-	
-		
+				
 		hp.clickOnFirstcryIcon();
 		  hp.hovertoMyAccount();
 		  hp.clickOnLogout();

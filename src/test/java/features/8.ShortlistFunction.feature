@@ -7,8 +7,8 @@ Feature: Manage Shortlisted Products
 
   Scenario: Manage Shortlist Functions
     When User shortlist few products
-   | Babyhug Cotton Woven Full Sleeves Checked Shirt - Navy Blue for Boys       |
-   |Babyhug Cotton Woven Full Sleeves Checked Shirt - Red for Boys           |
+   | toys       |
+   |ducks           |
     
     And User click on the Shortlist button
     Then user can see "<allproducts>" in the shortlist

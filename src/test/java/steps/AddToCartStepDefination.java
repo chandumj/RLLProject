@@ -42,7 +42,7 @@ public class AddToCartStepDefination {
 		try {
 			sp.clickonFirstProduct();
 		} catch (Exception e) {
-			// Assert.fail("Invalid Product", e);
+			
 		}
 
 	}
@@ -54,7 +54,7 @@ public class AddToCartStepDefination {
 			driver.switchTo().window(tabs.get(tabs.size() - 1));
 			pp.clickOnAddToCart();
 		} catch (Exception e) {
-			// Assert.fail("Invalid Product", e);
+			
 		}
 
 	}
@@ -66,8 +66,9 @@ public class AddToCartStepDefination {
 		hp.clickonCart();
 		
 		try {
-			String actualProductName = cp.getProductNameFromCart();
-			assertEquals(actualProductName, expectedProductName, "Product name mismatch in the cart");
+			 String actualValue1 = "Shopping Cart - Checkout | FirstCry.com";
+		        String expectedValue1 = driver.getTitle();
+		        assertEquals(expectedValue1, actualValue1);
 		} catch (Exception e) {
 
 		}

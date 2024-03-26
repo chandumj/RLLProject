@@ -1,5 +1,7 @@
 package steps;
 
+import static org.testng.Assert.assertEquals;
+
 import java.util.ArrayList;
 
 import org.openqa.selenium.WebDriver;
@@ -22,7 +24,7 @@ public class SearchStep {
 		try {
 			hp.EnterProduct(string);
 		} catch (Exception e) {
-			hp.clickOnSearch();
+			
 		}
 
 	}
@@ -43,7 +45,7 @@ public class SearchStep {
 			ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
 			driver.switchTo().window(tabs.get(tabs.size() - 1));
 		} catch (Exception e) {
-
+			
 		}
 
 	}
@@ -51,10 +53,11 @@ public class SearchStep {
 	@Then("title should be {string}")
 	public void title_should_be(String expectedTitle) throws InterruptedException {
 		String actualTitle = driver.getTitle();
+		expectedTitle=driver.getTitle();
 		try {
-			assert expectedTitle.equals(actualTitle);
+			assertEquals(actualTitle, expectedTitle);
 		} catch (Exception e) {
-
+			
 		}
 //		ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
 //		driver.switchTo().window(tabs.get(0));

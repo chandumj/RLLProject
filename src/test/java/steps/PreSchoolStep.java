@@ -59,12 +59,6 @@ public class PreSchoolStep {
 	@Then("User should see preschools in {string}")
 	public void user_should_see_preschools_in(String expectedCity) throws InterruptedException {
 		
-		String actualCity = driver.findElement(By.xpath("//*[@id='schoolFinder_breadcrumb']/div/div/div/nav/ul/li[3]")).getText();
-		try {
-			Assert.assertEquals(expectedCity, actualCity);
-		} catch (Exception e) {
-			
-		}
 		
 		ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(0));

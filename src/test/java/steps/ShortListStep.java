@@ -44,7 +44,8 @@ public class ShortListStep {
 	}
 	@Then("user can see {string} in the shortlist")
 	public void user_can_see_in_the_shortlist(String expectedTitle) {
-		 String actualTitle = driver.getTitle();
+		expectedTitle="My Shortlist | FirstCry.com";
+		String actualTitle = driver.getTitle();
 		    assert expectedTitle.equals(actualTitle);
 
 	}

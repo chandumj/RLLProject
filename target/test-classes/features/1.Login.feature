@@ -13,5 +13,5 @@ Feature: Login with UserId
     Examples: 
       | UserId                   |
       | chandumj787013@gmail.com |
-      | chandumj@gmail.co        |
+      |       |
       

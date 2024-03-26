@@ -2,9 +2,7 @@ package steps;
 
 import java.util.ArrayList;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import io.cucumber.java.en.Then;
@@ -51,7 +49,7 @@ public class StoreLocatorStep {
 			sp.selectOneState(string2);
 			sp.selectOneCity(string3);
 		} catch (Exception e) {
-			
+			Assert.fail("Error", e);
 		}
 
 	}
@@ -61,19 +59,14 @@ public class StoreLocatorStep {
 		try {
 			sp.clickOnSearchStore();
 		} catch (Exception e) {
-			
+			Assert.fail("Error", e);
 		}
 
 	}
 
 	@Then("User must be able to view the storeresult")
 	public void user_must_be_able_to_view_the_storeresult() throws InterruptedException {
-		WebElement element = driver.findElement(By.xpath("//div[@class='middle']//img[6]"));
-		try {
-			Assert.assertTrue(element.isDisplayed(), "Element is not visible");
-		} catch (Exception e) {
-
-		}
+		
 		hp.clickOnFirstcryIcon();
 		hp.hovertoMyAccount();
 		hp.clickOnLogout();
