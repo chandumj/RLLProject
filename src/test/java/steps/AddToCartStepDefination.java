@@ -5,6 +5,7 @@ import static org.testng.Assert.assertEquals;
 import java.time.Duration;
 import java.util.ArrayList;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -62,20 +63,27 @@ public class AddToCartStepDefination {
 
 	@Then("{string} should be added to my cart")
 	public void should_be_added_to_my_cart(String expectedProductName) throws InterruptedException {
-		   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
+		   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
 		hp.clickonCart();
 
 		try {
-			   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
+			  driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
+			//Thread.sleep(2000);
 			String actualValue1 = "Shopping Cart - Checkout | FirstCry.com";
 			String expectedValue1 = driver.getTitle();
 			assertEquals(expectedValue1, actualValue1);
 		} catch (Exception e) {
 			Assert.fail("ERROR", e);
 		}
-
-		hp.clickOnFirstcryIcon();
-		hp.hovertoMyAccount();
-		hp.clickOnLogout();
+		cp.clickOnBacktoCart();
+//		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
+//		 JavascriptExecutor js = (JavascriptExecutor) driver;
+//
+//	        // Scroll to the top of the page
+//	        js.executeScript("window.scrollTo(0, 0);");
+//		//hp.clickOnFirstcryIcon();
+//		
+//		//hp.hovertoMyAccount();
+//	//	hp.clickOnLogout();
 	}
 }

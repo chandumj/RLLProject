@@ -113,7 +113,7 @@ public class SharedSteps {
 	public void user_log_into_the_application_with_credentials() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
 		lp.clickOnLogin();
-		lp.enterEmail("chandumj787013@gmail.com");
+		lp.enterEmail("");
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
 		Thread.sleep(1000);
 		lp.clickOnContinue();

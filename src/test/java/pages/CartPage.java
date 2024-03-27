@@ -21,13 +21,13 @@ public class CartPage {
 	private WebElement applyPinCode;
 	
 	//span[@class='quantity-icon']
-	@FindBy(xpath = "//span[@class='quantity-icon']")
+	@FindBy(xpath = "//span[@class='J13M_42 cl_21 selectarrow cart-icon']")
 	private WebElement quantityIcon;
 	
-	@FindBy(xpath = "(//div[@class='qty_popup-value'])[2]")
+	@FindBy(xpath = "((//span[@class='cnt-no selected J14R_42 cl_21'])[2]")
 	private WebElement changeQty;
 	
-	@FindBy(xpath = "(//span[@class='M15_21 removetext'])[4]")
+	@FindBy(xpath = "((//span[@id='activeshortlist'])[1]")
 	private WebElement moveToShortlist;
 	
 	@FindBy(xpath = "//div[@id='shortlist_15934334']")
@@ -41,6 +41,9 @@ public class CartPage {
 	
 	@FindBy(xpath="//pro15414449[contains(text(),'Pine Kids Cotton Woven Full Sleeve Denim Hooded Sh')]")
 	private WebElement productInCart1;
+	
+	@FindBy(xpath = "//span[@class='mback_arrow cart-icon']")
+	private WebElement backtoHomePage;
 
 	public CartPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -71,6 +74,10 @@ public class CartPage {
 		quantityIcon.click();
 	}
 	
+	public void clickOnBacktoCart() {
+		wait.until(ExpectedConditions.visibilityOf(backtoHomePage));
+		backtoHomePage.click();
+	}
 
 	public String getProductNameFromCart() {
         return productInCart.getText();

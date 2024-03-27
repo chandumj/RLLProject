@@ -24,7 +24,7 @@ public class SearchStep {
 	public void user_search_for(String string) throws InterruptedException {
 		try {
 			hp.EnterProduct(string);
-			   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
+			driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
 		} catch (Exception e) {
 
 		}
@@ -46,7 +46,7 @@ public class SearchStep {
 		try {
 			ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
 			driver.switchTo().window(tabs.get(tabs.size() - 1));
-			   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
+			driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
 		} catch (Exception e) {
 
 		}

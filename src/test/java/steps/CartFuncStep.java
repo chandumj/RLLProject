@@ -43,8 +43,8 @@ public class CartFuncStep {
 	@When("User click on cart")
 	public void user_click_on_cart() throws InterruptedException {
 	    hp.clickonCart();
-	    driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
-	   // Thread.sleep(1000);
+	   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+	    Thread.sleep(2000);
 	}
 
 	@Then("user can see {string} in the cart")
@@ -67,10 +67,11 @@ public class CartFuncStep {
 
 	@Then("the {string} should be changed")
 	public void the_should_be_changed(String string) throws InterruptedException {
-
+        cp.clickOnBacktoCart();
 		hp.clickOnFirstcryIcon();
-		hp.hovertoMyAccount();
-		hp.clickOnLogout();
+		
+		//hp.hovertoMyAccount();
+		//hp.clickOnLogout();
 	}
 
 }

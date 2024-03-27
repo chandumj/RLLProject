@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="135.738" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="525.781" tests="14" errors="0" skipped="4" failures="3">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire3440871789546773778\surefirebooter18371822570806912091.jar C:\Users\lenovo\AppData\Local\Temp\surefire3440871789546773778 2024-03-26T22-34-10_213-jvmRun1 surefire12232798640102906242tmp surefire_016767157578255430575tmp"/>
+    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire8758588543323145819\surefirebooter2495080766118293462.jar C:\Users\lenovo\AppData\Local\Temp\surefire8758588543323145819 2024-03-27T08-22-01_390-jvmRun1 surefire18414633907918819586tmp surefire_05983755928327872806tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\Mphasis Practice Eclipse\RLLProject\target\test-classes;F:\Mphasis Practice Eclipse\RLLProject\target\classes;C:\Users\lenovo\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\lenovo\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\lenovo\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\lenovo\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\lenovo\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\lenovo\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\lenovo\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\lenovo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\lenovo\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\lenovo\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\lenovo\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\lenovo\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\lenovo\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\lenovo\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\lenovo\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-java\7.10.1\cucumber-java-7.10.1.jar;C:\Users\lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-testng\7.10.1\cucumber-testng-7.10.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-junit\7.10.1\cucumber-junit-7.10.1.jar;C:\Users\lenovo\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\lenovo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-core\7.10.1\cucumber-core-7.10.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-gherkin\7.10.1\cucumber-gherkin-7.10.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.1\cucumber-gherkin-messages-7.10.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\gherkin\25.0.2\gherkin-25.0.2.jar;C:\Users\lenovo\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\lenovo\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\datatable\7.10.1\datatable-7.10.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\cucumber-plugin\7.10.1\cucumber-plugin-7.10.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\docstring\7.10.1\docstring-7.10.1.jar;C:\Users\lenovo\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\lenovo\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\4.11.0\selenium-java-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\4.11.0\selenium-api-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.11.0\selenium-chrome-driver-4.11.0.jar;C:\Users\lenovo\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\lenovo\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\lenovo\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\lenovo\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.11.0\selenium-chromium-driver-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-json\4.11.0\selenium-json-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.11.0\selenium-manager-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.11.0\selenium-devtools-v113-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.11.0\selenium-devtools-v114-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.11.0\selenium-devtools-v115-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.11.0\selenium-devtools-v85-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.11.0\selenium-edge-driver-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.11.0\selenium-firefox-driver-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-http\4.11.0\selenium-http-4.11.0.jar;C:\Users\lenovo\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.11.0\selenium-ie-driver-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.11.0\selenium-remote-driver-4.11.0.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\lenovo\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\lenovo\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\lenovo\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\lenovo\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\lenovo\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\lenovo\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.11.0\selenium-safari-driver-4.11.0.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\4.11.0\selenium-support-4.11.0.jar;C:\Users\lenovo\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\lenovo\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\lenovo\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\lenovo\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\lenovo\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\lenovo\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\lenovo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\lenovo\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\lenovo\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\lenovo\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\lenovo\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\lenovo\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.7.0\extentreports-cucumber7-adapter-1.7.0.jar;C:\Users\lenovo\.m2\repository\tech\grasshopper\extent-pdf-report\2.7.0\extent-pdf-report-2.7.0.jar;C:\Users\lenovo\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.10.0\cucumber-pdf-report-2.10.0.jar;C:\Users\lenovo\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\lenovo\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\lenovo\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\lenovo\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\lenovo\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\lenovo\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\lenovo\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\lenovo\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\lenovo\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\lenovo\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\lenovo\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\lenovo\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\lenovo\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\lenovo\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\lenovo\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\lenovo\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire3440871789546773778\surefirebooter18371822570806912091.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire8758588543323145819\surefirebooter2495080766118293462.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
@@ -57,6 +57,462 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario" classname="runners.TestRunner" time="72.215"/>
-  <testcase name="runScenario" classname="runners.TestRunner" time="57.376"/>
+  <testcase name="runScenario" classname="runners.TestRunner" time="40.702"/>
+  <testcase name="runScenario" classname="runners.TestRunner" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;verfiedbtn&apos;]&quot;}&#10;  (Session info: chrome=123.0.6312.59)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e0b95fe920947d773584a61b936bcc56, findElement {using=xpath, value=//div[@id=&apos;verfiedbtn&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e0b95fe920947d773584a61b936bcc56"/>
+    <system-out><![CDATA[[INFO ] 2024-03-27 08:22:46.612 [main] SharedSteps - Test Started
+
+@FirstCry
+Scenario Outline: Login with UserId       &amp#27;[90m# src/test/java/features/1.Login.feature:16&amp#27;[0m
+[INFO ] 2024-03-27 08:22:46.634 [main] SharedSteps - Login with UserId Scenario Started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to the FirstCry URL&amp#27;[0m &amp#27;[90m# steps.SharedSteps.user_navigate_to_the_first_cry_url()&amp#27;[0m
+[DEBUG] 2024-03-27 08:22:49.638 [main] SharedSteps - Step-1 Test Case Passed
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on the login button&amp#27;[0m     &amp#27;[90m# steps.LoginStepDefination.user_click_on_the_login_button()&amp#27;[0m
+[DEBUG] 2024-03-27 08:22:50.258 [main] SharedSteps - Step-2 Test Case Passed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be on login Page&amp#27;[0m       &amp#27;[90m# steps.LoginStepDefination.user_should_be_on_login_page()&amp#27;[0m
+[DEBUG] 2024-03-27 08:22:50.305 [main] SharedSteps - Step-3 Test Case Passed
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enter &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                       &amp#27;[90m# steps.LoginStepDefination.user_enter(java.lang.String)&amp#27;[0m
+[DEBUG] 2024-03-27 08:22:50.407 [main] SharedSteps - Step-4 Test Case Passed
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on the continue button&amp#27;[0m   &amp#27;[90m# steps.LoginStepDefination.user_click_on_the_continue_button()&amp#27;[0m
+[DEBUG] 2024-03-27 08:22:51.478 [main] SharedSteps - Step-5 Test Case Passed
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31muser click the submit button&amp#27;[0m        &amp#27;[90m# steps.LoginStepDefination.user_click_the_submit_button()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='verfiedbtn']"}
+  (Session info: chrome=123.0.6312.59)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0b95fe920947d773584a61b936bcc56, findElement {using=xpath, value=//div[@id='verfiedbtn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0b95fe920947d773584a61b936bcc56
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy45.click(Unknown Source)
+	at pages.LoginPage.clickOnSubmit(LoginPage.java:48)
+	at steps.LoginStepDefination.user_click_the_submit_button(LoginStepDefination.java:46)
+	at âœ½.user click the submit button(file:///F:/Mphasis%20Practice%20Eclipse/RLLProject/src/test/java/features/1.Login.feature:10)
+&amp#27;[0m
+[FATAL] 2024-03-27 08:23:21.847 [main] SharedSteps - Step-6 Test Case Failed
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser should be on Home Page&amp#27;[0m        &amp#27;[90m# steps.LoginStepDefination.user_should_be_on_home_page()&amp#27;[0m
+[INFO ] 2024-03-27 08:23:21.858 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-27 08:23:21.860 [main] SharedSteps - Test Skipped
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runners.TestRunner" time="34.312">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;verfiedbtn&apos;]&quot;}&#10;  (Session info: chrome=123.0.6312.59)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e0b95fe920947d773584a61b936bcc56, findElement {using=xpath, value=//div[@id=&apos;verfiedbtn&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e0b95fe920947d773584a61b936bcc56" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='verfiedbtn']"}
+  (Session info: chrome=123.0.6312.59)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0b95fe920947d773584a61b936bcc56, findElement {using=xpath, value=//div[@id='verfiedbtn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0b95fe920947d773584a61b936bcc56
+</failure>
+    <system-out><![CDATA[[INFO ] 2024-03-27 08:23:21.862 [main] SharedSteps - Test Started
+
+@FirstCry
+Scenario Outline: Login with UserId       &amp#27;[90m# src/test/java/features/1.Login.feature:16&amp#27;[0m
+[INFO ] 2024-03-27 08:23:21.883 [main] SharedSteps - Login with UserId Scenario Started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to the FirstCry URL&amp#27;[0m &amp#27;[90m# steps.SharedSteps.user_navigate_to_the_first_cry_url()&amp#27;[0m
+[DEBUG] 2024-03-27 08:23:23.919 [main] SharedSteps - Step-1 Test Case Passed
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on the login button&amp#27;[0m     &amp#27;[90m# steps.LoginStepDefination.user_click_on_the_login_button()&amp#27;[0m
+[DEBUG] 2024-03-27 08:23:24.638 [main] SharedSteps - Step-2 Test Case Passed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be on login Page&amp#27;[0m       &amp#27;[90m# steps.LoginStepDefination.user_should_be_on_login_page()&amp#27;[0m
+[DEBUG] 2024-03-27 08:23:24.656 [main] SharedSteps - Step-3 Test Case Passed
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enter &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                       &amp#27;[90m# steps.LoginStepDefination.user_enter(java.lang.String)&amp#27;[0m
+[DEBUG] 2024-03-27 08:23:24.848 [main] SharedSteps - Step-4 Test Case Passed
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on the continue button&amp#27;[0m   &amp#27;[90m# steps.LoginStepDefination.user_click_on_the_continue_button()&amp#27;[0m
+[DEBUG] 2024-03-27 08:23:25.947 [main] SharedSteps - Step-5 Test Case Passed
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31muser click the submit button&amp#27;[0m        &amp#27;[90m# steps.LoginStepDefination.user_click_the_submit_button()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='verfiedbtn']"}
+  (Session info: chrome=123.0.6312.59)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0b95fe920947d773584a61b936bcc56, findElement {using=xpath, value=//div[@id='verfiedbtn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0b95fe920947d773584a61b936bcc56
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy45.click(Unknown Source)
+	at pages.LoginPage.clickOnSubmit(LoginPage.java:48)
+	at steps.LoginStepDefination.user_click_the_submit_button(LoginStepDefination.java:46)
+	at âœ½.user click the submit button(file:///F:/Mphasis%20Practice%20Eclipse/RLLProject/src/test/java/features/1.Login.feature:10)
+&amp#27;[0m
+[FATAL] 2024-03-27 08:23:56.157 [main] SharedSteps - Step-6 Test Case Failed
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser should be on Home Page&amp#27;[0m        &amp#27;[90m# steps.LoginStepDefination.user_should_be_on_home_page()&amp#27;[0m
+[INFO ] 2024-03-27 08:23:56.166 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-27 08:23:56.167 [main] SharedSteps - Test Failed
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runners.TestRunner" time="41.144"/>
+  <testcase name="runScenario" classname="runners.TestRunner" time="40.146"/>
+  <testcase name="runScenario" classname="runners.TestRunner" time="44.455"/>
+  <testcase name="runScenario" classname="runners.TestRunner" time="0">
+    <skipped message="expected [Shopping Cart - Checkout | FirstCry.com] but found [Spiky 100% Accuracy Silicone Spiky Sporty Analogue Watch Bunny Design - Pink for Both (5-15 Years) Online in India, Buy at FirstCry.com - 9985935]"/>
+    <system-out><![CDATA[[INFO ] 2024-03-27 08:26:01.919 [main] SharedSteps - Test Started
+
+@FirstCry
+Scenario Outline: Add Product to Cart                                                              &amp#27;[90m# src/test/java/features/4.AddToCart.feature:17&amp#27;[0m
+[INFO ] 2024-03-27 08:26:01.940 [main] SharedSteps - Add Product to Cart Scenario Started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to the FirstCry URL&amp#27;[0m                                                          &amp#27;[90m# steps.SharedSteps.user_navigate_to_the_first_cry_url()&amp#27;[0m
+[DEBUG] 2024-03-27 08:26:04.456 [main] SharedSteps - Step-1 Test Case Passed
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser log into the application with credentials&amp#27;[0m                                              &amp#27;[90m# steps.SharedSteps.user_log_into_the_application_with_credentials()&amp#27;[0m
+[DEBUG] 2024-03-27 08:26:39.985 [main] SharedSteps - Step-2 Test Case Passed
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser search for a &amp#27;[0m&amp#27;[32m&amp#27;[1m"watches"&amp#27;[0m                                                                 &amp#27;[90m# steps.AddToCartStepDefination.user_search_for_a(java.lang.String)&amp#27;[0m
+[DEBUG] 2024-03-27 08:26:43.067 [main] SharedSteps - Step-3 Test Case Passed
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on one Product&amp#27;[0m                                                                         &amp#27;[90m# steps.AddToCartStepDefination.click_on_one_product()&amp#27;[0m
+[DEBUG] 2024-03-27 08:26:43.410 [main] SharedSteps - Step-4 Test Case Passed
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser switches focus to the newÂ tab&amp#27;[0m                                                           &amp#27;[90m# steps.SearchStep.user_switches_focus_to_the_new_tab()&amp#27;[0m
+[DEBUG] 2024-03-27 08:26:43.427 [main] SharedSteps - Step-5 Test Case Passed
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on Add to Cart for the selected product&amp#27;[0m                                                &amp#27;[90m# steps.AddToCartStepDefination.click_on_add_to_cart_for_the_selected_product()&amp#27;[0m
+[DEBUG] 2024-03-27 08:26:45.357 [main] SharedSteps - Step-6 Test Case Passed
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31m&amp#27;[0m&amp#27;[31m&amp#27;[1m"Pine Kids Cotton Woven Full Sleeves Solid Color Shirt - Orange"&amp#27;[0m&amp#27;[31m should be added to my cart&amp#27;[0m &amp#27;[90m# steps.AddToCartStepDefination.should_be_added_to_my_cart(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [Shopping Cart - Checkout | FirstCry.com] but found [Spiky 100% Accuracy Silicone Spiky Sporty Analogue Watch Bunny Design - Pink for Both (5-15 Years) Online in India, Buy at FirstCry.com - 9985935]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at steps.AddToCartStepDefination.should_be_added_to_my_cart(AddToCartStepDefination.java:74)
+	at âœ½."Pine Kids Cotton Woven Full Sleeves Solid Color Shirt - Orange" should be added to my cart(file:///F:/Mphasis%20Practice%20Eclipse/RLLProject/src/test/java/features/4.AddToCart.feature:13)
+&amp#27;[0m
+[FATAL] 2024-03-27 08:26:45.853 [main] SharedSteps - Step-7 Test Case Failed
+[INFO ] 2024-03-27 08:26:45.939 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-27 08:26:45.941 [main] SharedSteps - Test Skipped
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runners.TestRunner" time="49.001"/>
+  <testcase name="runScenario" classname="runners.TestRunner" time="41.649"/>
+  <testcase name="runScenario" classname="runners.TestRunner" time="43.827"/>
+  <testcase name="runScenario" classname="runners.TestRunner" time="0">
+    <skipped message="element click intercepted: Element &lt;span class=&quot;M14_61 pos-rel&quot; id=&quot;cart_TotalCount&quot;&gt;...&lt;/span&gt; is not clickable at point (1216, 8). Other element would receive the click: &lt;div class=&quot;pdp-wrap&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=123.0.6312.59)&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e0b95fe920947d773584a61b936bcc56, clickElement {id=f.BB2D18A2C55685FDD15EB2086038E331.d.3F891CA0AB4239D1829903A1A56F1744.e.91}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (e0b95fe920947d773584a61b936bcc56)] -&gt; xpath: //span[@id=&apos;cart_TotalCount&apos;]]&#10;Session ID: e0b95fe920947d773584a61b936bcc56"/>
+    <system-out><![CDATA[[INFO ] 2024-03-27 08:29:00.421 [main] SharedSteps - Test Started
+
+@FirstCry
+Scenario: Manage Cart Functions                          &amp#27;[90m# src/test/java/features/7.CartFunction.feature:8&amp#27;[0m
+[INFO ] 2024-03-27 08:29:00.440 [main] SharedSteps - Manage Cart Functions Scenario Started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to the FirstCry URL&amp#27;[0m                &amp#27;[90m# steps.SharedSteps.user_navigate_to_the_first_cry_url()&amp#27;[0m
+[DEBUG] 2024-03-27 08:29:03.456 [main] SharedSteps - Step-1 Test Case Passed
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser log into the application with credentials&amp#27;[0m    &amp#27;[90m# steps.SharedSteps.user_log_into_the_application_with_credentials()&amp#27;[0m
+[DEBUG] 2024-03-27 08:29:38.848 [main] SharedSteps - Step-2 Test Case Passed
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser add a few products to the cart&amp#27;[0m               &amp#27;[90m# steps.CartFuncStep.user_add_a_few_products_to_the_cart(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | pens  |
+    | books |
+[DEBUG] 2024-03-27 08:29:49.571 [main] SharedSteps - Step-3 Test Case Passed
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mUser click on cart&amp#27;[0m                                 &amp#27;[90m# steps.CartFuncStep.user_click_on_cart()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="M14_61 pos-rel" id="cart_TotalCount">...</span> is not clickable at point (1216, 8). Other element would receive the click: <div class="pdp-wrap">...</div>
+  (Session info: chrome=123.0.6312.59)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0b95fe920947d773584a61b936bcc56, clickElement {id=f.BB2D18A2C55685FDD15EB2086038E331.d.3F891CA0AB4239D1829903A1A56F1744.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e0b95fe920947d773584a61b936bcc56)] -> xpath: //span[@id='cart_TotalCount']]
+Session ID: e0b95fe920947d773584a61b936bcc56
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy45.click(Unknown Source)
+	at pages.HomePage.clickonCart(HomePage.java:96)
+	at steps.CartFuncStep.user_click_on_cart(CartFuncStep.java:45)
+	at âœ½.User click on cart(file:///F:/Mphasis%20Practice%20Eclipse/RLLProject/src/test/java/features/7.CartFunction.feature:12)
+&amp#27;[0m
+[FATAL] 2024-03-27 08:29:51.083 [main] SharedSteps - Step-4 Test Case Failed
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser can see &amp#27;[0m&amp#27;[36m&amp#27;[1m"<allproducts>"&amp#27;[0m&amp#27;[36m in the cart&amp#27;[0m          &amp#27;[90m# steps.CartFuncStep.user_can_see_in_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser move a product to the shortlist&amp#27;[0m              &amp#27;[90m# steps.CartFuncStep.user_move_a_product_to_the_shortlist()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser change the quantity of product from the cart&amp#27;[0m &amp#27;[90m# steps.CartFuncStep.user_change_the_quantity_of_product_from_the_cart()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe &amp#27;[0m&amp#27;[36m&amp#27;[1m"<quantity>"&amp#27;[0m&amp#27;[36m should be changed&amp#27;[0m                &amp#27;[90m# steps.CartFuncStep.the_should_be_changed(java.lang.String)&amp#27;[0m
+[INFO ] 2024-03-27 08:29:51.248 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-27 08:29:51.251 [main] SharedSteps - Test Skipped
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runners.TestRunner" time="47.244">
+    <failure message="Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0b95fe920947d773584a61b936bcc56)] -&gt; xpath: (//span[@class=&apos;M16_white&apos;])[4]] (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e0b95fe920947d773584a61b936bcc56" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0b95fe920947d773584a61b936bcc56)] -> xpath: (//span[@class='M16_white'])[4]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0b95fe920947d773584a61b936bcc56
+</failure>
+    <system-out><![CDATA[[INFO ] 2024-03-27 08:29:51.253 [main] SharedSteps - Test Started
+
+@FirstCry
+Scenario: Manage Cart Functions                          &amp#27;[90m# src/test/java/features/7.CartFunction.feature:8&amp#27;[0m
+[INFO ] 2024-03-27 08:29:51.256 [main] SharedSteps - Manage Cart Functions Scenario Started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to the FirstCry URL&amp#27;[0m                &amp#27;[90m# steps.SharedSteps.user_navigate_to_the_first_cry_url()&amp#27;[0m
+[DEBUG] 2024-03-27 08:29:53.607 [main] SharedSteps - Step-1 Test Case Passed
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser log into the application with credentials&amp#27;[0m    &amp#27;[90m# steps.SharedSteps.user_log_into_the_application_with_credentials()&amp#27;[0m
+[DEBUG] 2024-03-27 08:30:29.154 [main] SharedSteps - Step-2 Test Case Passed
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mUser add a few products to the cart&amp#27;[0m               &amp#27;[90m# steps.CartFuncStep.user_add_a_few_products_to_the_cart(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | pens  |
+    | books |
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (e0b95fe920947d773584a61b936bcc56)] -> xpath: (//span[@class='M16_white'])[4]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0b95fe920947d773584a61b936bcc56
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pages.ProductsPage.clickOnAddToCart(ProductsPage.java:31)
+	at steps.CartFuncStep.user_add_a_few_products_to_the_cart(CartFuncStep.java:38)
+	at âœ½.User add a few products to the cart(file:///F:/Mphasis%20Practice%20Eclipse/RLLProject/src/test/java/features/7.CartFunction.feature:9)
+&amp#27;[0m
+[FATAL] 2024-03-27 08:30:38.396 [main] SharedSteps - Step-3 Test Case Failed
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser click on cart&amp#27;[0m                                 &amp#27;[90m# steps.CartFuncStep.user_click_on_cart()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser can see &amp#27;[0m&amp#27;[36m&amp#27;[1m"<allproducts>"&amp#27;[0m&amp#27;[36m in the cart&amp#27;[0m          &amp#27;[90m# steps.CartFuncStep.user_can_see_in_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser move a product to the shortlist&amp#27;[0m              &amp#27;[90m# steps.CartFuncStep.user_move_a_product_to_the_shortlist()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser change the quantity of product from the cart&amp#27;[0m &amp#27;[90m# steps.CartFuncStep.user_change_the_quantity_of_product_from_the_cart()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe &amp#27;[0m&amp#27;[36m&amp#27;[1m"<quantity>"&amp#27;[0m&amp#27;[36m should be changed&amp#27;[0m                &amp#27;[90m# steps.CartFuncStep.the_should_be_changed(java.lang.String)&amp#27;[0m
+[INFO ] 2024-03-27 08:30:38.494 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-27 08:30:38.496 [main] SharedSteps - Test Failed
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runners.TestRunner" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=123.0.6312.59)&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e0b95fe920947d773584a61b936bcc56, findElement {using=xpath, value=//li[@class=&apos;logreg&apos;]/child::span[1]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e0b95fe920947d773584a61b936bcc56"/>
+    <system-out><![CDATA[[INFO ] 2024-03-27 08:30:38.498 [main] SharedSteps - Test Started
+
+@FirstCry
+Scenario: Manage Shortlist Functions                        &amp#27;[90m# src/test/java/features/8.ShortlistFunction.feature:8&amp#27;[0m
+[INFO ] 2024-03-27 08:30:38.508 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to the FirstCry URL&amp#27;[0m                   &amp#27;[90m# steps.SharedSteps.user_navigate_to_the_first_cry_url()&amp#27;[0m
+[DEBUG] 2024-03-27 08:30:39.190 [main] SharedSteps - Step-1 Test Case Passed
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mUser log into the application with credentials&amp#27;[0m       &amp#27;[90m# steps.SharedSteps.user_log_into_the_application_with_credentials()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.59)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0b95fe920947d773584a61b936bcc56, findElement {using=xpath, value=//li[@class='logreg']/child::span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0b95fe920947d773584a61b936bcc56
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy45.toString(Unknown Source)
+	at java.base/java.lang.String.valueOf(String.java:4215)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:173)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:295)
+	at java.base/java.lang.String.valueOf(String.java:4215)
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:173)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:227)
+	at pages.LoginPage.clickOnLogin(LoginPage.java:34)
+	at steps.SharedSteps.user_log_into_the_application_with_credentials(SharedSteps.java:115)
+	at âœ½.User log into the application with credentials(file:///F:/Mphasis%20Practice%20Eclipse/RLLProject/src/test/java/features/8.ShortlistFunction.feature:6)
+&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.59)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0b95fe920947d773584a61b936bcc56, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0b95fe920947d773584a61b936bcc56
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at utilities.ScreenShotUtility.captureScreenshot(ScreenShotUtility.java:15)
+	at steps.SharedSteps.afterStep(SharedSteps.java:67)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser shortlist few products&amp#27;[0m                          &amp#27;[90m# steps.ShortListStep.user_shortlist_few_products(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | toys    |
+    | bangles |
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser click on the Shortlist button&amp#27;[0m                    &amp#27;[90m# steps.ShortListStep.user_click_on_the_shortlist_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser can see &amp#27;[0m&amp#27;[36m&amp#27;[1m"<allproducts>"&amp#27;[0m&amp#27;[36m in the shortlist&amp#27;[0m        &amp#27;[90m# steps.ShortListStep.user_can_see_in_the_shortlist(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser add a product to the cart from the shortlist&amp#27;[0m    &amp#27;[90m# steps.ShortListStep.user_add_a_product_to_the_cart_from_the_shortlist()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser delete a product from the shortlist&amp#27;[0m             &amp#27;[90m# steps.ShortListStep.user_delete_a_product_from_the_shortlist()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe &amp#27;[0m&amp#27;[36m&amp#27;[1m"<product>"&amp#27;[0m&amp#27;[36m should be removed from the shortlist&amp#27;[0m &amp#27;[90m# steps.ShortListStep.the_should_be_removed_from_the_shortlist(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.59)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0b95fe920947d773584a61b936bcc56, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0b95fe920947d773584a61b936bcc56
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:455)
+	at steps.SharedSteps.teardownScenario(SharedSteps.java:79)
+&amp#27;[0m
+[INFO ] 2024-03-27 08:30:44.323 [main] SharedSteps - Test Skipped
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="runners.TestRunner" time="0.017">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=123.0.6312.59)&#10;Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e0b95fe920947d773584a61b936bcc56, deleteAllCookies {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e0b95fe920947d773584a61b936bcc56" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.59)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0b95fe920947d773584a61b936bcc56, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0b95fe920947d773584a61b936bcc56
+</failure>
+    <system-out><![CDATA[[INFO ] 2024-03-27 08:30:44.324 [main] SharedSteps - Test Started
+
+@FirstCry
+Scenario: Manage Shortlist Functions                        &amp#27;[90m# src/test/java/features/8.ShortlistFunction.feature:8&amp#27;[0m
+[INFO ] 2024-03-27 08:30:44.330 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.59)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0b95fe920947d773584a61b936bcc56, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0b95fe920947d773584a61b936bcc56
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:800)
+	at steps.SharedSteps.setupScenario(SharedSteps.java:57)
+&amp#27;[0m
+  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mUser navigate to the FirstCry URL&amp#27;[0m                   &amp#27;[90m# steps.SharedSteps.user_navigate_to_the_first_cry_url()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser log into the application with credentials&amp#27;[0m       &amp#27;[90m# steps.SharedSteps.user_log_into_the_application_with_credentials()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser shortlist few products&amp#27;[0m                          &amp#27;[90m# steps.ShortListStep.user_shortlist_few_products(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | toys    |
+    | bangles |
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser click on the Shortlist button&amp#27;[0m                    &amp#27;[90m# steps.ShortListStep.user_click_on_the_shortlist_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser can see &amp#27;[0m&amp#27;[36m&amp#27;[1m"<allproducts>"&amp#27;[0m&amp#27;[36m in the shortlist&amp#27;[0m        &amp#27;[90m# steps.ShortListStep.user_can_see_in_the_shortlist(java.lang.String)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser add a product to the cart from the shortlist&amp#27;[0m    &amp#27;[90m# steps.ShortListStep.user_add_a_product_to_the_cart_from_the_shortlist()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser delete a product from the shortlist&amp#27;[0m             &amp#27;[90m# steps.ShortListStep.user_delete_a_product_from_the_shortlist()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe &amp#27;[0m&amp#27;[36m&amp#27;[1m"<product>"&amp#27;[0m&amp#27;[36m should be removed from the shortlist&amp#27;[0m &amp#27;[90m# steps.ShortListStep.the_should_be_removed_from_the_shortlist(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.59)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e0b95fe920947d773584a61b936bcc56, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53964/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0b95fe920947d773584a61b936bcc56
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:455)
+	at steps.SharedSteps.teardownScenario(SharedSteps.java:79)
+&amp#27;[0m
+[INFO ] 2024-03-27 08:30:44.340 [main] SharedSteps - Test Failed
+]]></system-out>
+  </testcase>
 </testsuite>

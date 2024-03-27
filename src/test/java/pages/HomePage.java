@@ -16,7 +16,7 @@ public class HomePage {
 	public Actions action;
 	public WebDriverWait wait;
 	
-	@FindBy(xpath = "//ul[@class='my_acc1']/descendant::span")
+	@FindBy(xpath = "//span[@onclick='SiteLogout1()']")
 	private WebElement logoutBtn;
 	
 	@FindBy(xpath = "//input[@id='search_box']")
@@ -25,7 +25,7 @@ public class HomePage {
 	@FindBy(xpath = "//span[@class='search-button']")
 	private WebElement searchBtn;
 	
-	@FindBy(xpath = "//span[contains(@class,'anch myacc_2')]")
+	@FindBy(xpath = "//span[@class='anch myacc_2']")
 	private WebElement myAccount;
 	
 	@FindBy(linkText = "My Profile")
@@ -100,7 +100,7 @@ public class HomePage {
 		shortlistBtn.click();
 	}
 	public void clickOnFirstcryIcon() {
-		wait.until(ExpectedConditions.visibilityOf(myAccount));
+		wait.until(ExpectedConditions.visibilityOf(firstCryIcon));
 		action.moveToElement(firstCryIcon).click().build().perform();
 	}
 	

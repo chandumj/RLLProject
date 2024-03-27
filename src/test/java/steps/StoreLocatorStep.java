@@ -34,8 +34,8 @@ public class StoreLocatorStep {
 	public void user_switches_focus_to_the_new_tab() throws InterruptedException {
 		ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
-		   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
-		//Thread.sleep(1000);
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
+		// Thread.sleep(1000);
 	}
 
 	@Then("User should be on storelocator page {string}")
@@ -69,7 +69,7 @@ public class StoreLocatorStep {
 
 	@Then("User must be able to view the storeresult")
 	public void user_must_be_able_to_view_the_storeresult() throws InterruptedException {
-		
+
 		hp.clickOnFirstcryIcon();
 		hp.hovertoMyAccount();
 		hp.clickOnLogout();

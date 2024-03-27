@@ -14,7 +14,7 @@ public class ScreenShotUtility extends SharedSteps {
 	public static String captureScreenshot(String ScreenshotName) {
 		File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-		String path="Screenshots/" + ScreenshotName + ".png";
+		String path = "Screenshots/" + ScreenshotName + ".png";
 		File destFile = new File(path);
 
 		try {
