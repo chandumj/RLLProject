@@ -19,7 +19,6 @@ public class LoginStepDefination {
 	
 	@When("user click on the login button")
 	public void user_click_on_the_login_button() {
-		
 	   lp.clickOnLogin();
 	}
 	@Then("user should be on login Page")
@@ -36,7 +35,7 @@ public class LoginStepDefination {
 
 	@When("user click on the continue button")
 	public void user_click_on_the_continue_button() throws InterruptedException {
-		Thread.sleep(1000);
+		   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
 		lp.clickOnContinue();
 	}
 

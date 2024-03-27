@@ -7,7 +7,7 @@ Feature: Manage Cart
 
   Scenario: Manage Cart Functions
     When User add a few products to the cart
-    |mobiles       |
+    |pens       |
     |books         |
     And  User click on cart
     Then user can see "<allproducts>" in the cart

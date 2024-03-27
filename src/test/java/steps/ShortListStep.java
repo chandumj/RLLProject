@@ -1,5 +1,6 @@
 package steps;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,6 +31,7 @@ public class ShortListStep {
 		for (List<String> userList : userLists) {
 			 hp.EnterProduct(userList.get(0));
 			   sp.clickonFirstProduct();
+			   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 			   ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
 			   driver.switchTo().window(tabs.get(tabs.size()-1));
 				pp.clickOnShortlistBtn();
@@ -40,13 +42,14 @@ public class ShortListStep {
 	public void user_click_on_the_shortlist_button() throws InterruptedException {
 	    hp.clickOnFirstcryIcon();
 		hp.clickonShortlist();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		
 	}
 	@Then("user can see {string} in the shortlist")
 	public void user_can_see_in_the_shortlist(String expectedTitle) {
 		expectedTitle="My Shortlist | FirstCry.com";
 		String actualTitle = driver.getTitle();
-		    assert expectedTitle.equals(actualTitle);
+		   assert expectedTitle.equals(actualTitle);
 
 	}
 

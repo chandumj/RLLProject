@@ -7,8 +7,8 @@ Feature: Manage Shortlisted Products
 
   Scenario: Manage Shortlist Functions
     When User shortlist few products
-   | toys       |
-   |ducks           |
+   | toys              |
+   | bangles           |
     
     And User click on the Shortlist button
     Then user can see "<allproducts>" in the shortlist

@@ -47,7 +47,7 @@ public class SharedSteps {
 		extentReport.setSystemInfo("Team Name", "TeamAlpha001");
 		extentReport.attachReporter(sparkreporter);
 		driver = new ChromeDriver();
-		
+
 	}
 
 	@Before
@@ -57,7 +57,7 @@ public class SharedSteps {
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		i = 1;
-		
+
 	}
 
 	@AfterStep
@@ -92,7 +92,6 @@ public class SharedSteps {
 		// Switch back to the original window
 		driver.switchTo().window(originalHandle);
 		logger.info(scenario.getName() + "Scenario Completed");
-	//	scenariogroup=scenario.getName();
 
 	}
 
@@ -115,6 +114,7 @@ public class SharedSteps {
 		LoginPage lp = new LoginPage(driver);
 		lp.clickOnLogin();
 		lp.enterEmail("chandumj787013@gmail.com");
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
 		Thread.sleep(1000);
 		lp.clickOnContinue();
 		Thread.sleep(30000);

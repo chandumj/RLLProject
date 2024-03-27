@@ -92,6 +92,7 @@ public class HomePage {
 		action.moveToElement(findstores).click().build().perform();
 	}
 	public void clickonCart() {
+		wait.until(ExpectedConditions.visibilityOf(cartBtn));
 		cartBtn.click();
 	}
 	

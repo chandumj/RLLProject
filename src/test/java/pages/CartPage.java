@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CartPage {
@@ -26,7 +27,7 @@ public class CartPage {
 	@FindBy(xpath = "(//div[@class='qty_popup-value'])[2]")
 	private WebElement changeQty;
 	
-	@FindBy(xpath = "(//div[@title='Shortlist']")
+	@FindBy(xpath = "(//span[@class='M15_21 removetext'])[4]")
 	private WebElement moveToShortlist;
 	
 	@FindBy(xpath = "//div[@id='shortlist_15934334']")
@@ -47,21 +48,26 @@ public class CartPage {
 	}
 	
 	public void EnterPinCode(String pincode) {
-		
 		pinCode.clear();
 		pinCode.sendKeys(pincode);
 	}
+	
 	public void clickOnApply() {
 		applyPinCode.click();
 	}
 	
 	public void changeQuantity() {
+		wait.until(ExpectedConditions.visibilityOf(changeQty));
 		changeQty.click();
 	}
+	
 	public void moveToShortlist() {
+		wait.until(ExpectedConditions.visibilityOf(moveToShortlist));
 		moveToShortlist.click();
 	}
+	
 	public void clickOnQuantyIcon() {
+		wait.until(ExpectedConditions.visibilityOf(quantityIcon));
 		quantityIcon.click();
 	}
 	

@@ -3330,3 +3330,1561 @@
 [INFO ] 2024-03-26 14:11:15.535 [main] SharedSteps - Test Success
 [INFO ] 2024-03-26 14:11:16.594 [main] SharedSteps - Execution Finished
 [INFO ] 2024-03-26 14:11:19.442 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 16:52:59.644 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 16:53:00.619 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 16:53:03.434 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 16:53:03.553 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 16:53:06.806 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 16:53:08.630 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 16:53:08.650 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 16:53:08.779 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 16:53:11.042 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 16:53:43.768 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 16:53:44.306 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 16:53:44.323 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 16:53:44.329 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 16:53:44.330 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 16:53:44.341 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 16:53:47.117 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 16:53:47.850 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 16:53:47.856 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 16:53:47.918 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 16:53:48.987 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 16:54:19.362 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 16:54:19.371 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 16:54:19.372 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 16:54:19.374 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 16:54:19.383 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 16:54:21.476 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 16:54:22.131 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 16:54:22.170 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 16:54:22.267 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 16:54:23.325 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 16:54:53.519 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 16:54:53.531 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 16:54:53.532 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 16:54:53.538 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 16:54:53.546 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 16:54:55.537 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 16:55:31.603 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 16:55:32.236 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 16:55:34.181 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 16:55:34.281 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 16:55:34.768 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 16:55:35.924 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 16:55:36.042 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 16:55:36.152 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 16:55:36.161 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 16:55:36.162 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 16:55:36.162 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 16:55:36.176 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 16:55:38.051 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 16:56:14.712 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 16:56:15.100 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 16:56:16.767 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 16:56:16.790 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 16:56:17.191 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 16:56:18.023 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 16:56:18.117 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 16:56:18.247 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 16:56:18.254 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 16:56:18.255 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 16:56:18.255 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 16:56:18.267 [main] SharedSteps - Search for Product Scenario Started
+[DEBUG] 2024-03-26 16:56:20.101 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 16:56:55.590 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 16:56:59.051 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 16:56:59.472 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 16:56:59.542 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 16:57:01.841 [main] SharedSteps - Step-6 Test Case Passed
+[INFO ] 2024-03-26 16:57:01.923 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 16:57:01.925 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 16:57:01.926 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 16:57:01.940 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 16:57:04.479 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 16:57:39.986 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 16:57:42.969 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 16:57:43.255 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 16:57:43.314 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 16:57:45.030 [main] SharedSteps - Step-6 Test Case Passed
+[FATAL] 2024-03-26 16:57:45.576 [main] SharedSteps - Step-7 Test Case Failed
+[INFO ] 2024-03-26 16:57:45.677 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 16:57:45.679 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 16:57:45.681 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 16:57:45.688 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 16:57:47.766 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 16:58:23.444 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 16:58:26.019 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 16:58:26.347 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 16:58:26.430 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 16:58:31.472 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 16:58:35.362 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 16:58:35.460 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 16:58:35.461 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 16:58:35.463 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 16:58:35.473 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 16:58:38.126 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 16:59:13.841 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 16:59:16.780 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 16:59:17.041 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 16:59:17.103 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 16:59:18.878 [main] SharedSteps - Step-6 Test Case Passed
+[FATAL] 2024-03-26 16:59:20.265 [main] SharedSteps - Step-7 Test Case Failed
+[INFO ] 2024-03-26 16:59:20.366 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 16:59:20.367 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 16:59:20.368 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 16:59:20.379 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 16:59:22.375 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 16:59:57.848 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 17:00:00.689 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 17:00:01.323 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 17:00:01.445 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 17:00:06.615 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 17:00:10.494 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 17:00:10.584 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 17:00:10.585 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 17:00:10.587 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 17:00:10.608 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[DEBUG] 2024-03-26 17:00:13.520 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 17:00:49.609 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 17:00:50.091 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 17:00:50.288 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 17:00:50.350 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 17:00:51.939 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 17:00:52.393 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 17:00:52.522 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 17:00:54.875 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 17:00:54.961 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 17:00:54.962 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 17:00:54.962 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 17:00:54.974 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[DEBUG] 2024-03-26 17:00:57.737 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 17:01:33.656 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 17:01:34.182 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 17:01:34.370 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 17:01:34.444 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 17:01:36.737 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 17:01:36.828 [main] SharedSteps - Search for a Preschool in cityScenario Completed
+[INFO ] 2024-03-26 17:01:36.829 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 17:01:36.829 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 17:01:36.839 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[DEBUG] 2024-03-26 17:01:38.656 [main] SharedSteps - Step-1 Test Case Passed
+[FATAL] 2024-03-26 17:01:40.165 [main] SharedSteps - Step-2 Test Case Failed
+[INFO ] 2024-03-26 17:01:40.183 [main] SharedSteps - Search for a Preschool in cityScenario Completed
+[INFO ] 2024-03-26 17:01:40.184 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 17:01:40.185 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 17:01:40.191 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 17:01:42.309 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 17:02:17.900 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 17:02:28.251 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 17:02:30.038 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 17:02:30.207 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 17:02:30.595 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 17:02:30.764 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 17:02:30.766 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 17:02:30.768 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 17:02:30.778 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 17:02:32.579 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 17:03:08.242 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 17:03:17.682 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 17:03:17.769 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 17:03:17.769 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 17:03:17.769 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 17:03:17.792 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 17:03:19.816 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 17:03:55.964 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 17:03:56.876 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 17:03:56.886 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 17:03:56.887 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 17:03:56.888 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 17:03:56.892 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 17:03:58.981 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 17:04:34.382 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 17:04:46.244 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 17:04:48.980 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 17:04:49.006 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 17:04:49.178 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 17:04:49.279 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 17:04:49.838 [main] SharedSteps - Step-8 Test Case Passed
+[INFO ] 2024-03-26 17:04:49.997 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 17:04:49.999 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 17:04:51.287 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 17:04:53.875 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 18:31:51.056 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 18:31:51.593 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 18:31:54.846 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:31:54.960 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 18:31:59.089 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:32:00.925 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:32:00.967 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:32:01.178 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:32:03.461 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 18:32:36.357 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 18:32:36.823 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 18:32:36.837 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 18:32:36.845 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 18:32:36.851 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:32:36.864 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 18:32:40.636 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:32:41.388 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:32:41.426 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:32:41.496 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:32:42.557 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 18:33:12.883 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 18:33:12.891 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 18:33:12.892 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 18:33:12.893 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:33:12.904 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 18:33:15.003 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:33:15.670 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:33:15.757 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:33:15.814 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:33:16.882 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 18:33:47.092 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 18:33:47.101 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 18:33:47.102 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 18:33:47.108 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:33:47.120 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 18:33:49.234 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:34:25.172 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:34:25.459 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:34:27.478 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:34:27.524 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 18:34:27.840 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 18:34:29.104 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 18:34:29.208 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 18:34:29.350 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 18:34:29.356 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 18:34:29.357 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 18:34:29.357 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:34:29.365 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 18:34:31.377 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:35:07.033 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:35:07.294 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:35:09.145 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:35:09.161 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 18:35:09.427 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 18:35:10.242 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 18:35:10.336 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 18:35:10.463 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 18:35:10.470 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 18:35:10.471 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 18:35:10.471 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:35:10.478 [main] SharedSteps - Search for Product Scenario Started
+[DEBUG] 2024-03-26 18:35:12.309 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:35:47.364 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:35:50.171 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:35:55.481 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:35:55.487 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 18:35:57.612 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 18:35:57.612 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 18:35:57.612 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 18:35:57.612 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:35:57.633 [main] SharedSteps - Search for Product Scenario Started
+[DEBUG] 2024-03-26 18:35:59.469 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:36:35.379 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:36:38.805 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:36:39.096 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:36:39.159 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 18:36:42.076 [main] SharedSteps - Step-6 Test Case Passed
+[INFO ] 2024-03-26 18:36:42.164 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 18:36:42.165 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 18:36:42.166 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:36:42.182 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 18:36:45.196 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:37:20.763 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:37:21.324 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:37:28.016 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:37:28.021 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 18:37:34.756 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 18:37:38.763 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 18:37:38.769 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 18:37:38.769 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 18:37:38.770 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:37:38.776 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 18:37:41.659 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:38:16.818 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:38:19.607 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:38:19.879 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:38:19.942 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 18:38:22.545 [main] SharedSteps - Step-6 Test Case Passed
+[FATAL] 2024-03-26 18:38:23.101 [main] SharedSteps - Step-7 Test Case Failed
+[INFO ] 2024-03-26 18:38:23.193 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 18:38:23.194 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 18:38:23.196 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:38:23.210 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 18:38:24.987 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:39:00.433 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:39:02.875 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:39:03.246 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:39:03.321 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 18:39:08.806 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 18:39:12.553 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 18:39:12.641 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 18:39:12.642 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 18:39:12.643 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:39:12.656 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[DEBUG] 2024-03-26 18:39:15.016 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:39:50.016 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:39:50.538 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:39:50.729 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:39:50.749 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 18:39:52.332 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 18:39:52.440 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 18:39:52.441 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 18:39:52.442 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:39:52.452 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[DEBUG] 2024-03-26 18:39:54.269 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:40:29.377 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:40:29.694 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:40:29.890 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:40:29.909 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 18:40:30.949 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 18:40:31.514 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 18:40:31.621 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 18:40:33.267 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 18:40:33.356 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 18:40:33.357 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 18:40:33.358 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:40:33.371 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[DEBUG] 2024-03-26 18:40:35.819 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:41:10.785 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:41:11.333 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:41:11.520 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:41:11.533 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 18:41:14.987 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 18:41:15.077 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 18:41:15.169 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 18:41:16.950 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 18:41:17.038 [main] SharedSteps - Search for a Preschool in cityScenario Completed
+[INFO ] 2024-03-26 18:41:17.039 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 18:41:17.040 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:41:17.058 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 18:41:19.660 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:41:54.560 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:42:03.632 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:42:05.267 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:42:05.463 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 18:42:05.830 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 18:42:05.980 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 18:42:05.981 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 18:42:05.982 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:42:05.991 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 18:42:07.875 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:42:43.542 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 18:42:52.284 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 18:42:52.381 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 18:42:52.382 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 18:42:52.383 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:42:52.391 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 18:42:54.093 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:43:29.813 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:43:42.053 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:43:43.472 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:43:43.503 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 18:43:43.696 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 18:43:43.769 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 18:43:45.932 [main] SharedSteps - Step-8 Test Case Passed
+[INFO ] 2024-03-26 18:43:46.171 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 18:43:46.173 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 18:43:47.542 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 18:43:49.958 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 18:57:30.639 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 18:57:31.272 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 18:57:33.828 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:57:33.953 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 18:57:36.876 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:57:38.794 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:57:38.844 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:57:38.998 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:57:41.086 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 18:58:13.758 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 18:58:14.198 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 18:58:14.213 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 18:58:14.213 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 18:58:14.213 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:58:14.229 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 18:58:17.180 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:58:18.060 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:58:18.108 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:58:18.194 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:58:19.246 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 18:58:49.489 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 18:58:49.499 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 18:58:49.500 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 18:58:49.501 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:58:49.509 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 18:58:51.453 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 18:58:52.118 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 18:58:52.155 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 18:58:52.242 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 18:58:53.302 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 18:59:23.492 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 18:59:23.500 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 18:59:23.502 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 18:59:23.508 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 18:59:23.520 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 18:59:25.376 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:00:01.042 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:00:01.302 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:00:04.073 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:00:04.105 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:00:04.391 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:00:05.891 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 19:00:05.983 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 19:00:06.112 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 19:00:06.118 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 19:00:06.119 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:00:06.120 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:00:06.127 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 19:00:09.163 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:00:45.704 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:00:45.999 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:00:49.468 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:00:49.489 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:00:49.750 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:00:50.553 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 19:00:50.641 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 19:00:50.760 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 19:00:50.766 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 19:00:50.767 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:00:50.767 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:00:50.777 [main] SharedSteps - Search for Product Scenario Started
+[DEBUG] 2024-03-26 19:00:54.797 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:01:30.731 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:01:35.964 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:01:36.667 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:01:36.684 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:01:38.828 [main] SharedSteps - Step-6 Test Case Passed
+[INFO ] 2024-03-26 19:01:38.925 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 19:01:38.927 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:01:38.928 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:01:38.953 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 19:01:42.087 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:02:17.715 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:02:20.678 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:02:21.102 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:02:21.112 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:02:23.328 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:02:28.388 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 19:02:28.482 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 19:02:28.485 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:02:28.486 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:02:28.504 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 19:02:31.798 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:03:07.618 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:03:10.258 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:03:10.494 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:03:10.508 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:03:15.744 [main] SharedSteps - Step-6 Test Case Passed
+[FATAL] 2024-03-26 19:03:21.612 [main] SharedSteps - Step-7 Test Case Failed
+[INFO ] 2024-03-26 19:03:21.700 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 19:03:21.701 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:03:21.702 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:03:21.713 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 19:03:23.709 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:04:00.209 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:04:08.267 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:04:09.435 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:04:09.441 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:04:16.087 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:04:20.598 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 19:04:20.607 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 19:04:20.609 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:04:20.609 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:04:20.621 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[DEBUG] 2024-03-26 19:04:24.323 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:05:00.020 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:05:00.274 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:05:00.469 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:05:01.499 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:05:01.732 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:05:02.174 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 19:05:02.311 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 19:05:04.352 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 19:05:04.435 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 19:05:04.436 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:05:04.437 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:05:04.449 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[DEBUG] 2024-03-26 19:05:06.703 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:05:42.354 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:05:42.782 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:05:42.976 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:05:44.001 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:05:46.965 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:05:47.057 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 19:05:47.139 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 19:05:49.233 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 19:05:49.320 [main] SharedSteps - Search for a Preschool in cityScenario Completed
+[INFO ] 2024-03-26 19:05:49.321 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:05:49.321 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:05:49.331 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 19:05:51.959 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:06:27.122 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:06:37.388 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:06:39.137 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:06:39.222 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 19:06:39.505 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 19:06:39.663 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 19:06:39.665 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:06:39.668 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:06:39.678 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 19:06:41.745 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:07:17.371 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 19:07:26.665 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 19:07:26.751 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 19:07:26.752 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:07:26.753 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:07:26.758 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 19:07:28.517 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:08:04.317 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 19:08:12.752 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 19:08:12.850 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 19:08:12.851 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:08:12.851 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:08:12.854 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 19:08:14.845 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:08:50.586 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:09:01.276 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:09:03.270 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:09:03.304 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:09:03.508 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:09:03.586 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 19:09:05.253 [main] SharedSteps - Step-8 Test Case Passed
+[INFO ] 2024-03-26 19:09:05.407 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 19:09:05.409 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:09:06.774 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 19:09:09.595 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 19:22:06.662 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 19:22:07.181 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 19:22:08.989 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:22:09.086 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 19:22:11.920 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:22:13.683 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:22:13.729 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:22:13.869 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:22:15.854 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:22:48.989 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:22:49.451 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 19:22:49.464 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 19:22:49.464 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:22:49.464 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:22:49.477 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 19:22:52.358 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:22:52.999 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:22:53.019 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:22:53.128 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:22:54.192 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 19:23:24.430 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 19:23:24.441 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 19:23:24.442 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:23:24.443 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:23:24.453 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 19:23:26.454 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:23:27.200 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:23:27.340 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:23:27.413 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:23:28.485 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 19:23:58.657 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 19:23:58.667 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 19:23:58.668 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:23:58.674 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:23:58.688 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 19:24:00.718 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:24:36.460 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:24:37.006 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:24:38.926 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:24:38.937 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:24:39.191 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:24:40.442 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 19:24:40.542 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 19:24:40.666 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 19:24:40.671 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 19:24:40.671 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:24:40.673 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:24:40.679 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 19:24:42.672 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:25:17.124 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:25:17.369 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:25:19.390 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:25:19.414 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:25:19.676 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:25:20.499 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 19:25:20.586 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 19:25:20.709 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 19:25:20.714 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 19:25:20.714 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:25:20.714 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:25:20.727 [main] SharedSteps - Search for Product Scenario Started
+[DEBUG] 2024-03-26 19:25:22.543 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:25:58.112 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:26:02.624 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:26:03.095 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:26:03.173 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 19:26:06.115 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 19:26:06.206 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 19:26:06.210 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:26:06.211 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:26:06.220 [main] SharedSteps - Search for Product Scenario Started
+[DEBUG] 2024-03-26 19:26:08.709 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:26:44.767 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:26:49.083 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:26:49.711 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:26:49.795 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:26:51.685 [main] SharedSteps - Step-6 Test Case Passed
+[INFO ] 2024-03-26 19:26:51.776 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 19:26:51.777 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:26:51.778 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:26:51.796 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 19:26:55.011 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:27:30.672 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:27:34.268 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:27:34.564 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:27:34.625 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:27:39.933 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:27:44.183 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 19:27:44.285 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 19:27:44.285 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:27:44.285 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:27:44.297 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 19:27:47.038 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:28:23.739 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:28:26.885 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:28:27.171 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:28:27.235 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:28:32.591 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:28:36.571 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 19:28:36.640 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 19:28:36.641 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:28:36.641 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:28:36.653 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[DEBUG] 2024-03-26 19:28:39.462 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:29:21.121 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:29:21.646 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:29:21.834 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:29:22.913 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:29:23.279 [main] SharedSteps - Step-6 Test Case Passed
+[FATAL] 2024-03-26 19:29:28.763 [main] SharedSteps - Step-7 Test Case Failed
+[INFO ] 2024-03-26 19:29:28.851 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 19:29:28.854 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:29:28.855 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:29:28.869 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[DEBUG] 2024-03-26 19:29:30.813 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:30:03.829 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 19:30:05.055 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 19:30:05.065 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 19:30:05.066 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:30:05.067 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:30:05.072 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[DEBUG] 2024-03-26 19:30:07.465 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:30:44.433 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 19:30:44.919 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 19:30:45.102 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 19:30:46.175 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 19:30:49.806 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 19:30:49.896 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 19:30:49.983 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 19:30:52.796 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 19:30:52.884 [main] SharedSteps - Search for a Preschool in cityScenario Completed
+[INFO ] 2024-03-26 19:30:52.886 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 19:30:52.887 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:30:52.909 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 19:30:55.564 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:31:32.311 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 19:31:40.079 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 19:31:40.085 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 19:31:40.086 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:31:40.087 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:31:40.093 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 19:31:42.329 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:32:15.607 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 19:32:16.854 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 19:32:16.865 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 19:32:16.865 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:32:16.865 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:32:16.865 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 19:32:19.719 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 19:32:55.814 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 19:33:07.620 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 19:33:07.703 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 19:33:07.705 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:33:07.705 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:33:07.716 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 19:33:09.841 [main] SharedSteps - Step-1 Test Case Passed
+[INFO ] 2024-03-26 19:33:09.972 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:33:10.991 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 19:33:14.135 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 19:43:32.322 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 19:43:32.909 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 19:43:59.867 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:43:59.976 [main] SharedSteps - Login with UserId Scenario Started
+[INFO ] 2024-03-26 19:44:14.046 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:44:14.046 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.078 [main] SharedSteps - Login with UserId Scenario Started
+[INFO ] 2024-03-26 19:44:14.117 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:44:14.125 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.140 [main] SharedSteps - Login with UserId Scenario Started
+[INFO ] 2024-03-26 19:44:14.173 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:44:14.173 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.188 [main] SharedSteps - Login with UserId Scenario Started
+[INFO ] 2024-03-26 19:44:14.217 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:44:14.220 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.236 [main] SharedSteps - Edit user profile Scenario Started
+[INFO ] 2024-03-26 19:44:14.252 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:44:14.252 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.268 [main] SharedSteps - Edit user profile Scenario Started
+[INFO ] 2024-03-26 19:44:14.295 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:44:14.297 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.315 [main] SharedSteps - Edit user profile Scenario Started
+[INFO ] 2024-03-26 19:44:14.334 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:44:14.334 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.364 [main] SharedSteps - Edit user profile Scenario Started
+[INFO ] 2024-03-26 19:44:14.381 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:44:14.381 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.404 [main] SharedSteps - Search for Product Scenario Started
+[INFO ] 2024-03-26 19:44:14.426 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:44:14.426 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.443 [main] SharedSteps - Search for Product Scenario Started
+[INFO ] 2024-03-26 19:44:14.474 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:44:14.474 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.496 [main] SharedSteps - Add Product to Cart Scenario Started
+[INFO ] 2024-03-26 19:44:14.527 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:44:14.529 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.544 [main] SharedSteps - Add Product to Cart Scenario Started
+[INFO ] 2024-03-26 19:44:14.570 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:44:14.570 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.586 [main] SharedSteps - Add Product to Cart Scenario Started
+[INFO ] 2024-03-26 19:44:14.612 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:44:14.618 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.622 [main] SharedSteps - Add Product to Cart Scenario Started
+[INFO ] 2024-03-26 19:44:14.646 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:44:14.651 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.677 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[INFO ] 2024-03-26 19:44:14.720 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:44:14.729 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.745 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[INFO ] 2024-03-26 19:44:14.776 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:44:14.776 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.795 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[INFO ] 2024-03-26 19:44:14.827 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:44:14.827 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.840 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[INFO ] 2024-03-26 19:44:14.871 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:44:14.871 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.886 [main] SharedSteps - Manage Cart Functions Scenario Started
+[INFO ] 2024-03-26 19:44:14.934 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:44:14.934 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.934 [main] SharedSteps - Manage Cart Functions Scenario Started
+[INFO ] 2024-03-26 19:44:14.965 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:44:14.965 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:14.996 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[INFO ] 2024-03-26 19:44:15.018 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 19:44:15.018 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 19:44:15.028 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[INFO ] 2024-03-26 19:44:15.047 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 19:44:16.150 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 19:44:20.072 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 20:39:32.643 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 20:39:33.624 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 20:39:36.475 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:39:36.629 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 20:39:52.366 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:39:59.168 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 20:39:59.185 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 20:39:59.446 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 20:40:01.513 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 20:40:34.316 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 20:40:34.928 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 20:40:34.952 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 20:40:34.967 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 20:40:34.967 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:40:34.982 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 20:40:37.899 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:40:38.673 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 20:40:38.704 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 20:40:38.837 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 20:40:39.942 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 20:41:10.353 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 20:41:10.370 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 20:41:10.378 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 20:41:10.379 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:41:10.395 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 20:41:12.221 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:41:12.959 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 20:41:12.982 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 20:41:13.114 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 20:41:14.212 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 20:41:44.448 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 20:41:44.471 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 20:41:44.480 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 20:41:44.488 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:41:44.513 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 20:41:46.351 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:42:22.810 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 20:42:23.380 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 20:42:25.467 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 20:42:25.506 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 20:42:25.951 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 20:42:28.139 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 20:42:28.289 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 20:42:28.538 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 20:42:28.552 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 20:42:28.554 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 20:42:28.554 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:42:28.563 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 20:42:31.555 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:43:08.055 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 20:43:08.325 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 20:43:10.232 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 20:43:10.248 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 20:43:10.669 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 20:43:11.986 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 20:43:12.116 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 20:43:12.316 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 20:43:12.329 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 20:43:12.335 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 20:43:12.335 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:43:12.349 [main] SharedSteps - Search for Product Scenario Started
+[DEBUG] 2024-03-26 20:43:14.349 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:43:50.509 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 20:43:59.013 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 20:43:59.772 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 20:43:59.787 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 20:44:02.539 [main] SharedSteps - Step-6 Test Case Passed
+[INFO ] 2024-03-26 20:44:02.631 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 20:44:02.632 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 20:44:02.634 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:44:02.645 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 20:44:06.411 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:44:43.570 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 20:44:47.069 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 20:44:47.437 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 20:44:47.454 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 20:44:49.964 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 20:44:54.901 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 20:44:55.001 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 20:44:55.005 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 20:44:55.005 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:44:55.017 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 20:44:58.636 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:45:35.167 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 20:45:37.842 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 20:45:38.236 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 20:45:38.250 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 20:45:40.273 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 20:45:45.388 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 20:45:45.480 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 20:45:45.480 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 20:45:45.480 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:45:45.504 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[DEBUG] 2024-03-26 20:45:50.206 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:46:27.229 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 20:46:27.769 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 20:46:28.110 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 20:46:29.133 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 20:46:29.719 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 20:46:30.403 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 20:46:30.547 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 20:46:32.759 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 20:46:32.843 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 20:46:32.844 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 20:46:32.844 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:46:32.850 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[DEBUG] 2024-03-26 20:46:36.408 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:47:12.657 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 20:47:13.149 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 20:47:13.362 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 20:47:14.389 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 20:47:16.985 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 20:47:17.116 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 20:47:17.286 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 20:47:19.255 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 20:47:19.329 [main] SharedSteps - Search for a Preschool in cityScenario Completed
+[INFO ] 2024-03-26 20:47:19.329 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 20:47:19.329 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:47:19.365 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 20:47:22.470 [main] SharedSteps - Step-1 Test Case Passed
+[FATAL] 2024-03-26 20:47:57.032 [main] SharedSteps - Step-2 Test Case Failed
+[INFO ] 2024-03-26 20:47:57.049 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 20:47:57.053 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 20:47:57.055 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:47:57.065 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 20:47:58.992 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:48:34.898 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 20:48:41.034 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 20:48:41.141 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 20:48:41.141 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 20:48:41.141 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 20:48:41.158 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 20:48:43.277 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 20:49:19.657 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 20:49:33.992 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 20:49:35.791 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 20:49:35.801 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 20:49:35.954 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 20:49:36.052 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 20:49:38.743 [main] SharedSteps - Step-8 Test Case Passed
+[INFO ] 2024-03-26 20:49:38.909 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 20:49:38.910 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 20:49:39.860 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 20:49:42.685 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 21:08:26.883 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 21:08:27.659 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 21:08:29.979 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:08:30.099 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 21:08:38.969 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:08:41.073 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:08:41.138 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:08:41.402 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:08:42.983 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:09:13.109 [main] SharedSteps - Step-6 Test Case Passed
+[FATAL] 2024-03-26 21:09:13.372 [main] SharedSteps - Step-7 Test Case Failed
+[INFO ] 2024-03-26 21:09:13.406 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 21:09:13.414 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:09:13.418 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:13.439 [main] SharedSteps - Login with UserId Scenario Started
+[FATAL] 2024-03-26 21:09:15.924 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:15.951 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 21:09:15.956 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:09:15.967 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:15.993 [main] SharedSteps - Login with UserId Scenario Started
+[FATAL] 2024-03-26 21:09:18.517 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:18.541 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 21:09:18.541 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:09:18.541 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:18.567 [main] SharedSteps - Login with UserId Scenario Started
+[FATAL] 2024-03-26 21:09:21.091 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:21.112 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 21:09:21.113 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:09:21.117 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:21.138 [main] SharedSteps - Edit user profile Scenario Started
+[FATAL] 2024-03-26 21:09:23.725 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:23.757 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 21:09:23.757 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:09:23.757 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:23.774 [main] SharedSteps - Edit user profile Scenario Started
+[FATAL] 2024-03-26 21:09:26.364 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:26.383 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 21:09:26.383 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:09:26.383 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:26.407 [main] SharedSteps - Edit user profile Scenario Started
+[FATAL] 2024-03-26 21:09:28.801 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:28.831 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 21:09:28.835 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:09:28.837 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:28.850 [main] SharedSteps - Edit user profile Scenario Started
+[FATAL] 2024-03-26 21:09:31.382 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:31.399 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 21:09:31.408 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:09:31.409 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:31.424 [main] SharedSteps - Search for Product Scenario Started
+[FATAL] 2024-03-26 21:09:34.132 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:34.143 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 21:09:34.149 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:09:34.151 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:34.168 [main] SharedSteps - Search for Product Scenario Started
+[FATAL] 2024-03-26 21:09:36.557 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:36.573 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 21:09:36.582 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:09:36.584 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:36.605 [main] SharedSteps - Add Product to Cart Scenario Started
+[FATAL] 2024-03-26 21:09:39.231 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:39.244 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 21:09:39.245 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:09:39.246 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:39.255 [main] SharedSteps - Add Product to Cart Scenario Started
+[FATAL] 2024-03-26 21:09:42.060 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:42.070 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 21:09:42.071 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:09:42.071 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:42.078 [main] SharedSteps - Add Product to Cart Scenario Started
+[FATAL] 2024-03-26 21:09:44.854 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:44.864 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 21:09:44.866 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:09:44.867 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:44.872 [main] SharedSteps - Add Product to Cart Scenario Started
+[FATAL] 2024-03-26 21:09:47.599 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:09:47.612 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 21:09:47.613 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:09:47.614 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:09:47.621 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[INFO ] 2024-03-26 21:10:49.928 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 21:10:49.930 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:10:49.930 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:10:49.937 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[FATAL] 2024-03-26 21:10:53.304 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:10:53.314 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 21:10:53.316 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:10:53.317 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:10:53.323 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[FATAL] 2024-03-26 21:10:56.113 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:10:56.126 [main] SharedSteps - Search for a Preschool in cityScenario Completed
+[INFO ] 2024-03-26 21:10:56.127 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:10:56.128 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:10:56.132 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[FATAL] 2024-03-26 21:10:58.835 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:10:58.845 [main] SharedSteps - Search for a Preschool in cityScenario Completed
+[INFO ] 2024-03-26 21:10:58.846 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:10:58.847 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:10:58.854 [main] SharedSteps - Manage Cart Functions Scenario Started
+[FATAL] 2024-03-26 21:11:01.597 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:11:01.615 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 21:11:01.616 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:11:01.617 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:11:01.622 [main] SharedSteps - Manage Cart Functions Scenario Started
+[INFO ] 2024-03-26 21:12:03.957 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 21:12:03.958 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:12:03.959 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:12:03.965 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[INFO ] 2024-03-26 21:13:06.225 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 21:13:06.227 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:13:06.227 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:13:06.232 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[FATAL] 2024-03-26 21:13:10.180 [main] SharedSteps - Step-1 Test Case Failed
+[INFO ] 2024-03-26 21:13:10.190 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 21:13:10.191 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:13:10.884 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 21:13:12.853 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 21:13:35.879 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 21:13:36.404 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 21:13:38.277 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:13:38.388 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 21:13:55.670 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:13:57.778 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:13:57.844 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:13:58.040 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:13:59.369 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:14:32.391 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 21:14:32.928 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 21:14:32.949 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 21:14:32.956 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:14:32.956 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:14:32.988 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 21:14:35.808 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:14:36.552 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:14:36.572 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:14:36.673 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:14:36.772 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 21:15:07.006 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 21:15:07.016 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 21:15:07.017 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:15:07.018 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:15:07.025 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 21:15:09.616 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:15:10.892 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:15:10.927 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:15:11.007 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:15:11.097 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 21:15:41.305 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 21:15:41.320 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 21:15:41.327 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:15:41.335 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:15:41.360 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 21:15:44.065 [main] SharedSteps - Step-1 Test Case Passed
+[FATAL] 2024-03-26 21:16:22.567 [main] SharedSteps - Step-2 Test Case Failed
+[INFO ] 2024-03-26 21:16:22.595 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 21:16:22.595 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:16:22.595 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:16:22.611 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 21:16:24.878 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:17:00.905 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:17:01.476 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:17:03.630 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:17:03.680 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:17:04.045 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 21:17:06.196 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 21:17:06.353 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 21:17:06.557 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 21:17:06.565 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 21:17:06.565 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:17:06.565 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:17:06.575 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 21:17:08.619 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:17:44.812 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:17:45.080 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:17:47.331 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:17:47.349 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:17:47.672 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 21:17:48.998 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 21:17:49.145 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 21:17:49.322 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 21:17:49.333 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 21:17:49.333 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:17:49.333 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:17:49.350 [main] SharedSteps - Search for Product Scenario Started
+[DEBUG] 2024-03-26 21:17:54.039 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:18:30.526 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:18:36.554 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:18:37.276 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:18:37.307 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 21:18:39.565 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 21:18:39.663 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 21:18:39.663 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:18:39.663 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:18:39.671 [main] SharedSteps - Search for Product Scenario Started
+[DEBUG] 2024-03-26 21:18:42.126 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:19:19.913 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:19:26.135 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:19:26.786 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:19:26.861 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:19:28.944 [main] SharedSteps - Step-6 Test Case Passed
+[INFO ] 2024-03-26 21:19:29.043 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 21:19:29.045 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:19:29.045 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:19:29.058 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 21:19:33.144 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:20:09.247 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:20:13.342 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:20:13.781 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:20:13.804 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:20:15.985 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 21:20:21.447 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 21:20:21.522 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 21:20:21.522 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:20:21.531 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:20:21.553 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 21:20:25.204 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:21:02.849 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:21:08.196 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:21:08.450 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:21:08.470 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:21:13.901 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 21:21:18.831 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 21:21:18.934 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 21:21:18.936 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:21:18.938 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:21:18.956 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[DEBUG] 2024-03-26 21:21:24.992 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:22:01.145 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:22:01.378 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:22:01.578 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:22:01.597 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 21:22:04.123 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 21:22:04.230 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 21:22:04.230 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:22:04.234 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:22:04.504 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[DEBUG] 2024-03-26 21:22:07.523 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:22:44.420 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:22:44.658 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:22:44.883 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:22:44.906 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:22:46.903 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 21:22:47.584 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 21:22:47.764 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 21:22:50.293 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 21:22:50.377 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 21:22:50.377 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:22:50.377 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:22:50.394 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[DEBUG] 2024-03-26 21:22:54.373 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:23:30.200 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:23:30.453 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:23:30.655 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:23:30.675 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 21:23:32.754 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 21:23:32.839 [main] SharedSteps - Search for a Preschool in cityScenario Completed
+[INFO ] 2024-03-26 21:23:32.847 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:23:32.847 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:23:32.861 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[DEBUG] 2024-03-26 21:23:34.902 [main] SharedSteps - Step-1 Test Case Passed
+[FATAL] 2024-03-26 21:23:40.740 [main] SharedSteps - Step-2 Test Case Failed
+[INFO ] 2024-03-26 21:23:40.757 [main] SharedSteps - Search for a Preschool in cityScenario Completed
+[INFO ] 2024-03-26 21:23:40.757 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:23:40.762 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:23:40.780 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 21:23:42.523 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:24:18.976 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 21:24:29.513 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 21:24:29.606 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 21:24:29.607 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:24:29.607 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:24:29.615 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 21:24:31.803 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:25:07.905 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 21:25:16.563 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 21:25:16.664 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 21:25:16.666 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:25:16.671 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:25:16.681 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 21:25:17.019 [main] SharedSteps - Step-1 Test Case Passed
+[INFO ] 2024-03-26 21:25:22.112 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:25:22.113 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:25:22.125 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[INFO ] 2024-03-26 21:25:22.142 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:25:23.606 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 21:25:27.720 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 21:54:09.721 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 21:54:10.280 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 21:54:12.199 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:54:12.304 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 21:54:16.683 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:54:18.539 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:54:18.591 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:54:18.788 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:54:19.808 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:54:53.190 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 21:54:53.717 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 21:54:53.740 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 21:54:53.749 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:54:53.751 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:54:53.787 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 21:54:56.781 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:54:57.491 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:54:57.517 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:54:57.646 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:54:57.734 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 21:55:28.013 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 21:55:28.030 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 21:55:28.030 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 21:55:28.038 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:55:28.053 [main] SharedSteps - Login with UserId Scenario Started
+[DEBUG] 2024-03-26 21:55:36.088 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:55:36.806 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:55:36.815 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:55:36.939 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:55:37.045 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 21:56:07.301 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 21:56:07.311 [main] SharedSteps - Login with UserIdScenario Completed
+[INFO ] 2024-03-26 21:56:07.317 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 21:56:07.327 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:56:07.350 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 21:56:09.314 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:56:45.288 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:56:45.563 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:56:47.819 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:56:47.898 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:56:48.249 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 21:56:50.330 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 21:56:50.498 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 21:56:50.718 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 21:56:50.734 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 21:56:50.734 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:56:50.734 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:56:50.744 [main] SharedSteps - Edit user profile Scenario Started
+[DEBUG] 2024-03-26 21:56:53.280 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:57:30.462 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:57:30.731 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:57:32.642 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:57:32.709 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:57:33.051 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 21:57:34.329 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 21:57:34.470 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 21:57:34.677 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 21:57:34.692 [main] SharedSteps - Edit user profileScenario Completed
+[INFO ] 2024-03-26 21:57:34.692 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:57:34.692 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:57:34.709 [main] SharedSteps - Search for Product Scenario Started
+[DEBUG] 2024-03-26 21:57:37.040 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:58:13.035 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:58:18.913 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:58:19.648 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:58:19.673 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:58:22.610 [main] SharedSteps - Step-6 Test Case Passed
+[INFO ] 2024-03-26 21:58:22.715 [main] SharedSteps - Search for ProductScenario Completed
+[INFO ] 2024-03-26 21:58:22.719 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:58:22.719 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:58:22.744 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 21:58:25.761 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 21:59:01.977 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 21:59:05.837 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 21:59:06.252 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 21:59:06.270 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 21:59:11.596 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 21:59:19.576 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 21:59:19.781 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 21:59:19.783 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 21:59:19.784 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 21:59:19.803 [main] SharedSteps - Add Product to Cart Scenario Started
+[DEBUG] 2024-03-26 21:59:23.220 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:00:00.244 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:00:05.881 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:00:07.073 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:00:07.097 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 22:00:10.084 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 22:00:15.256 [main] SharedSteps - Step-7 Test Case Passed
+[INFO ] 2024-03-26 22:00:15.352 [main] SharedSteps - Add Product to CartScenario Completed
+[INFO ] 2024-03-26 22:00:15.352 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 22:00:15.352 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:00:15.370 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[DEBUG] 2024-03-26 22:00:21.791 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:00:58.385 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:00:58.905 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:00:59.148 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:00:59.231 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 22:01:00.916 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 22:01:01.609 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 22:01:01.826 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 22:01:03.767 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 22:01:03.861 [main] SharedSteps - Find FirstCry StoresScenario Completed
+[INFO ] 2024-03-26 22:01:03.864 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 22:01:03.864 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:01:03.883 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[DEBUG] 2024-03-26 22:01:06.575 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:01:43.499 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:01:44.011 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:01:44.216 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:01:44.293 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 22:01:46.112 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 22:01:46.278 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 22:01:46.434 [main] SharedSteps - Step-8 Test Case Passed
+[DEBUG] 2024-03-26 22:01:48.585 [main] SharedSteps - Step-9 Test Case Passed
+[INFO ] 2024-03-26 22:01:48.669 [main] SharedSteps - Search for a Preschool in cityScenario Completed
+[INFO ] 2024-03-26 22:01:48.669 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 22:01:48.669 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:01:48.698 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:01:51.737 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:02:28.926 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:02:42.509 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:02:44.794 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:02:44.880 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 22:02:45.211 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 22:02:45.383 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 22:02:45.383 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:02:45.383 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:02:45.400 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:02:47.535 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:03:24.160 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 22:03:34.662 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 22:03:34.754 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 22:03:34.756 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:03:34.757 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:03:34.764 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 22:03:36.839 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:04:12.671 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 22:04:13.369 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 22:04:13.376 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 22:04:13.383 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:04:13.384 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:04:13.391 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 22:04:15.485 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:04:53.695 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:05:13.175 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:05:16.722 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:05:16.729 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 22:05:16.919 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 22:05:17.050 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 22:05:19.145 [main] SharedSteps - Step-8 Test Case Passed
+[INFO ] 2024-03-26 22:05:19.306 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 22:05:19.306 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 22:05:21.196 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 22:05:25.487 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 22:11:40.597 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 22:11:41.357 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 22:11:44.151 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:44.270 [main] SharedSteps - Login with UserId Scenario Started
+[INFO ] 2024-03-26 22:11:48.536 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:11:48.538 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:48.576 [main] SharedSteps - Login with UserId Scenario Started
+[INFO ] 2024-03-26 22:11:48.614 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:11:48.626 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:48.651 [main] SharedSteps - Login with UserId Scenario Started
+[INFO ] 2024-03-26 22:11:48.687 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:11:48.688 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:48.714 [main] SharedSteps - Login with UserId Scenario Started
+[INFO ] 2024-03-26 22:11:48.746 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:11:48.747 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:48.775 [main] SharedSteps - Edit user profile Scenario Started
+[INFO ] 2024-03-26 22:11:48.835 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:11:48.836 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:48.857 [main] SharedSteps - Edit user profile Scenario Started
+[INFO ] 2024-03-26 22:11:48.889 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:11:48.891 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:48.915 [main] SharedSteps - Edit user profile Scenario Started
+[INFO ] 2024-03-26 22:11:48.943 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:11:48.945 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:49.049 [main] SharedSteps - Edit user profile Scenario Started
+[INFO ] 2024-03-26 22:11:49.076 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:11:49.081 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:49.110 [main] SharedSteps - Search for Product Scenario Started
+[INFO ] 2024-03-26 22:11:49.143 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:11:49.144 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:49.163 [main] SharedSteps - Search for Product Scenario Started
+[INFO ] 2024-03-26 22:11:49.188 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:11:49.189 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:49.211 [main] SharedSteps - Add Product to Cart Scenario Started
+[INFO ] 2024-03-26 22:11:49.237 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:11:49.238 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:49.245 [main] SharedSteps - Add Product to Cart Scenario Started
+[INFO ] 2024-03-26 22:11:49.275 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:11:49.276 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:49.283 [main] SharedSteps - Add Product to Cart Scenario Started
+[INFO ] 2024-03-26 22:11:49.300 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:11:49.301 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:49.306 [main] SharedSteps - Add Product to Cart Scenario Started
+[INFO ] 2024-03-26 22:11:49.332 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:11:49.333 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:49.357 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[INFO ] 2024-03-26 22:11:49.370 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:11:49.371 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:49.407 [main] SharedSteps - Find FirstCry Stores Scenario Started
+[INFO ] 2024-03-26 22:11:49.435 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:11:49.436 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:49.443 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[INFO ] 2024-03-26 22:11:49.474 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:11:49.480 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:11:49.493 [main] SharedSteps - Search for a Preschool in city Scenario Started
+[INFO ] 2024-03-26 22:11:49.517 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:11:50.072 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 22:11:54.069 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 22:12:18.597 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 22:12:19.172 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 22:12:21.064 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:12:21.167 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:12:25.327 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:13:00.843 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 22:13:01.159 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 22:13:01.194 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 22:13:01.194 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:13:01.203 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:13:01.228 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:13:03.309 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:13:39.868 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:13:54.955 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:13:57.029 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:13:57.220 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 22:13:58.838 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 22:13:59.021 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 22:13:59.021 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:13:59.038 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:13:59.060 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 22:14:01.154 [main] SharedSteps - Step-1 Test Case Passed
+[INFO ] 2024-03-26 22:14:34.771 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:14:34.772 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:14:34.781 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[INFO ] 2024-03-26 22:14:34.800 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:14:36.012 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 22:14:39.515 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 22:15:23.235 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 22:15:23.778 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 22:15:25.737 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:15:25.847 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:15:41.306 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:16:18.049 [main] SharedSteps - Step-2 Test Case Passed
+[FATAL] 2024-03-26 22:16:27.394 [main] SharedSteps - Step-3 Test Case Failed
+[INFO ] 2024-03-26 22:16:27.533 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 22:16:27.546 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:16:27.546 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:16:27.580 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:16:33.321 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:17:12.051 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:17:21.956 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:17:24.050 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:17:24.298 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 22:17:25.839 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 22:17:26.006 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 22:17:26.010 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:17:26.014 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:17:26.046 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 22:17:27.998 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:18:05.166 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:18:22.931 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:18:26.542 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:18:26.578 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 22:18:26.875 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 22:18:26.988 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 22:18:27.664 [main] SharedSteps - Step-8 Test Case Passed
+[INFO ] 2024-03-26 22:18:28.017 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 22:18:28.021 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 22:18:30.732 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 22:18:34.111 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 22:20:43.743 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 22:20:44.561 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 22:20:46.705 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:20:46.852 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:20:51.278 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:21:28.694 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:21:42.109 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:21:44.167 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:21:44.390 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 22:21:46.160 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 22:21:46.354 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 22:21:46.371 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:21:46.371 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:21:46.411 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:21:48.641 [main] SharedSteps - Step-1 Test Case Passed
+[INFO ] 2024-03-26 22:22:21.946 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:22:21.953 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:22:21.984 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[INFO ] 2024-03-26 22:22:22.023 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:22:22.025 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:22:22.032 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[INFO ] 2024-03-26 22:22:22.064 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:22:23.227 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 22:22:26.948 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 22:29:29.593 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 22:29:30.428 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 22:29:32.506 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:29:32.646 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:29:35.796 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:30:13.270 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:30:25.746 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:30:27.843 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:30:28.151 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 22:30:30.049 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 22:30:30.224 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 22:30:30.231 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:30:30.239 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:30:30.264 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:30:32.656 [main] SharedSteps - Step-1 Test Case Passed
+[INFO ] 2024-03-26 22:31:06.226 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:31:06.240 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:31:06.265 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[INFO ] 2024-03-26 22:31:06.291 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:31:06.292 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:31:06.308 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[INFO ] 2024-03-26 22:31:06.334 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:31:07.485 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 22:31:09.506 [main] SharedSteps - Listener Closed
+[INFO ] 2024-03-26 22:32:46.101 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 22:32:46.805 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 22:32:48.970 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:32:49.132 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:32:52.516 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:33:29.776 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:33:40.760 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:33:42.648 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:33:42.726 [main] SharedSteps - Step-5 Test Case Passed
+[FATAL] 2024-03-26 22:33:44.369 [main] SharedSteps - Step-6 Test Case Failed
+[INFO ] 2024-03-26 22:33:44.545 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 22:33:44.550 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:33:44.553 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:33:44.580 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:33:46.625 [main] SharedSteps - Step-1 Test Case Passed
+[INFO ] 2024-03-26 22:34:11.283 [main] SharedSteps - Listener Started
+[INFO ] 2024-03-26 22:34:11.911 [main] SharedSteps - Execution Started
+[INFO ] 2024-03-26 22:34:13.868 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:34:13.976 [main] SharedSteps - Manage Cart Functions Scenario Started
+[DEBUG] 2024-03-26 22:34:18.668 [main] SharedSteps - Step-1 Test Case Passed
+[INFO ] 2024-03-26 22:34:19.644 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:34:19.655 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:34:19.679 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[INFO ] 2024-03-26 22:34:19.713 [main] SharedSteps - Test Skipped
+[INFO ] 2024-03-26 22:34:19.717 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:34:19.732 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[INFO ] 2024-03-26 22:34:19.749 [main] SharedSteps - Test Failed
+[INFO ] 2024-03-26 22:34:20.626 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 22:34:23.096 [main] SharedSteps - Listener Closed
+[DEBUG] 2024-03-26 22:35:00.430 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:35:20.156 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:35:22.656 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:35:22.868 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 22:35:22.870 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 22:35:23.411 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 22:35:25.909 [main] SharedSteps - Step-8 Test Case Passed
+[INFO ] 2024-03-26 22:35:26.077 [main] SharedSteps - Manage Cart FunctionsScenario Completed
+[INFO ] 2024-03-26 22:35:26.081 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 22:35:26.083 [main] SharedSteps - Test Started
+[INFO ] 2024-03-26 22:35:26.097 [main] SharedSteps - Manage Shortlist Functions Scenario Started
+[DEBUG] 2024-03-26 22:35:28.679 [main] SharedSteps - Step-1 Test Case Passed
+[DEBUG] 2024-03-26 22:36:05.338 [main] SharedSteps - Step-2 Test Case Passed
+[DEBUG] 2024-03-26 22:36:19.361 [main] SharedSteps - Step-3 Test Case Passed
+[DEBUG] 2024-03-26 22:36:20.914 [main] SharedSteps - Step-4 Test Case Passed
+[DEBUG] 2024-03-26 22:36:21.051 [main] SharedSteps - Step-5 Test Case Passed
+[DEBUG] 2024-03-26 22:36:21.217 [main] SharedSteps - Step-6 Test Case Passed
+[DEBUG] 2024-03-26 22:36:21.299 [main] SharedSteps - Step-7 Test Case Passed
+[DEBUG] 2024-03-26 22:36:23.297 [main] SharedSteps - Step-8 Test Case Passed
+[INFO ] 2024-03-26 22:36:23.457 [main] SharedSteps - Manage Shortlist FunctionsScenario Completed
+[INFO ] 2024-03-26 22:36:23.458 [main] SharedSteps - Test Success
+[INFO ] 2024-03-26 22:36:24.481 [main] SharedSteps - Execution Finished
+[INFO ] 2024-03-26 22:36:26.378 [main] SharedSteps - Listener Closed

@@ -37,6 +37,7 @@ public class FindStoresPage {
 	}
 
 	public void selectOneStore(String store) {
+	//	wait.until(ExpectedConditions.titleContains("store"));
 		wait.until(ExpectedConditions.visibilityOf(selectStoreType));
 		Select select = new Select(selectStoreType);
 		select.selectByValue(store);

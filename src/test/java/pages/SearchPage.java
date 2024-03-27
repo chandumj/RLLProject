@@ -13,8 +13,8 @@ public class SearchPage {
 
 	public WebDriver driver;
 	public WebDriverWait wait;
-	
-	@FindBy(xpath = "(//div[@class='li_inner_block'])[1]/descendant::img")
+
+	@FindBy(xpath = "(//div[@class='list_img wifi'])[1]")
 	private WebElement firstProduct;
 	
 	public SearchPage(WebDriver driver) {

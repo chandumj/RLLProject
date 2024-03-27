@@ -31,6 +31,7 @@ public class LoginPage {
 	}
 	
 	public void clickOnLogin() {
+		wait.until(ExpectedConditions.visibilityOf(loginBtn));
 		loginBtn.click();
 	}
 	

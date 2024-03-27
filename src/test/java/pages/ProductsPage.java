@@ -14,7 +14,7 @@ public class ProductsPage {
 	public WebDriver driver;
 	public WebDriverWait wait;
 
-	@FindBy(xpath = "//span[contains(text(),'ADD TO CART')]")
+	@FindBy(xpath = "(//span[@class='M16_white'])[4]")
 	private WebElement addToCartButton;
 
 	@FindBy(id = "shortlist")
@@ -23,13 +23,16 @@ public class ProductsPage {
 	public ProductsPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		wait=new WebDriverWait(driver, Duration.ofSeconds(5));
+		
 	}
 
 	public void clickOnAddToCart() {
+		//wait.until(ExpectedConditions.titleContains("Baby"));
 		wait.until(ExpectedConditions.visibilityOf(addToCartButton));
 		addToCartButton.click();
 	}
 	public void clickOnShortlistBtn() {
+	//	wait.until(ExpectedConditions.titleContains("Baby"));
 		wait.until(ExpectedConditions.visibilityOf(shortlist));
 		shortlist.click();
 	}

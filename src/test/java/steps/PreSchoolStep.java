@@ -1,5 +1,6 @@
 package steps;
 
+import java.time.Duration;
 import java.util.ArrayList;
 
 import org.openqa.selenium.By;
@@ -35,6 +36,9 @@ public class PreSchoolStep {
 	public void user_switches_focus_to_new_tab() throws InterruptedException {
 		ArrayList<String> tabs=new ArrayList<>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(tabs.size()-1));
+		   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
+		//Thread.sleep(1000);
+		
 	}
 
 	@Then("user should be on {string} tab")

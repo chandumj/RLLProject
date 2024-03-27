@@ -18,7 +18,6 @@ public class ListenersUtility extends SharedSteps implements ITestListener {
 	ExtentReports extentReport;
 	ExtentTest extentTest;
 	int row=1;
-	
 
 	@Override
 	public void onStart(ITestContext context) {
@@ -36,8 +35,7 @@ public class ListenersUtility extends SharedSteps implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		logger.info("Test Failed");
-		
-		
+
 	}
 
 	@Override

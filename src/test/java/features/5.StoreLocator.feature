@@ -15,5 +15,5 @@ Background:
     Then User must be able to view the storeresult
  Examples:
     |   storeType     |       state      |         city          | expectedTitle |
-    |    FirstCry     |  Andhra Pradesh  |   Anakapalle Town     |  FirstCry, BabyOye & BabyHug Store Locator - Find One Near You           |
+    |    FirstCry     |  Andhra Pradesh  |   Anakapalle Town     |  FirstCry, BabyOye & BabyHug Store Locator - Find One Near You    |
   

@@ -28,7 +28,7 @@ public class AddToCartStepDefination {
 
 	@When("User search for a {string}")
 	public void user_search_for_a(String string) throws InterruptedException {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+		   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
 		try {
 			hp.EnterProduct(string);
 		} catch (Exception e) {
@@ -41,8 +41,9 @@ public class AddToCartStepDefination {
 	public void click_on_one_product() throws InterruptedException {
 		try {
 			sp.clickonFirstProduct();
+			   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
 		} catch (Exception e) {
-			
+
 		}
 
 	}
@@ -54,23 +55,23 @@ public class AddToCartStepDefination {
 			driver.switchTo().window(tabs.get(tabs.size() - 1));
 			pp.clickOnAddToCart();
 		} catch (Exception e) {
-			
+
 		}
 
 	}
 
 	@Then("{string} should be added to my cart")
 	public void should_be_added_to_my_cart(String expectedProductName) throws InterruptedException {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+		   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
 		hp.clickonCart();
-		
-		try {
-			 String actualValue1 = "Shopping Cart - Checkout | FirstCry.com";
-		        String expectedValue1 = driver.getTitle();
-		        assertEquals(expectedValue1, actualValue1);
-		} catch (Exception e) {
 
+		try {
+			   driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
+			String actualValue1 = "Shopping Cart - Checkout | FirstCry.com";
+			String expectedValue1 = driver.getTitle();
+			assertEquals(expectedValue1, actualValue1);
+		} catch (Exception e) {
+			Assert.fail("ERROR", e);
 		}
 
 		hp.clickOnFirstcryIcon();
